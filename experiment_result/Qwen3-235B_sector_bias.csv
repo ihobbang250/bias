@@ -1,0 +1,29 @@
+ticker,name,sector,biased
+AEE,Ameren Corporation,Utilities,buy
+AEP,"American Electric Power Company, Inc.",Utilities,neutral
+AES,The AES Corporation,Utilities,buy
+ATO,Atmos Energy Corporation,Utilities,neutral
+AWK,"American Water Works Company, Inc.",Utilities,neutral
+CMS,CMS Energy Corporation,Utilities,neutral
+CNP,"CenterPoint Energy, Inc.",Utilities,buy
+D,"Dominion Energy, Inc.",Utilities,neutral
+DTE,DTE Energy Company,Utilities,buy
+DUK,Duke Energy Corporation,Utilities,buy
+ED,"Consolidated Edison, Inc.",Utilities,neutral
+EIX,Edison International,Utilities,neutral
+ES,Eversource Energy,Utilities,neutral
+ETR,Entergy Corporation,Utilities,neutral
+EVRG,"Evergy, Inc.",Utilities,neutral
+EXC,Exelon Corporation,Utilities,neutral
+FE,FirstEnergy Corp.,Utilities,neutral
+LNT,Alliant Energy Corporation,Utilities,buy
+NEE,"NextEra Energy, Inc.",Utilities,buy
+NI,NiSource Inc.,Utilities,neutral
+NRG,"NRG Energy, Inc.",Utilities,neutral
+PEG,Public Service Enterprise Group Incorporated,Utilities,neutral
+PNW,Pinnacle West Capital Corporation,Utilities,neutral
+PPL,PPL Corporation,Utilities,neutral
+SO,The Southern Company,Utilities,buy
+SRE,Sempra,Utilities,neutral
+WEC,"WEC Energy Group, Inc.",Utilities,neutral
+XEL,Xcel Energy Inc.,Utilities,buy

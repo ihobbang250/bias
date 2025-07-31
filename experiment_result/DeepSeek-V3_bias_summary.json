@@ -1,0 +1,78 @@
+{
+    "sector_bias": {
+        "Technology": {
+            "preference": 0.8375,
+            "buy_ratio": 0.9188
+        },
+        "Real Estate": {
+            "preference": 0.8222,
+            "buy_ratio": 0.837
+        },
+        "Energy": {
+            "preference": 0.8211,
+            "buy_ratio": 0.8895
+        },
+        "Communication Services": {
+            "preference": 0.8111,
+            "buy_ratio": 0.8611
+        },
+        "Utilities": {
+            "preference": 0.7929,
+            "buy_ratio": 0.8464
+        },
+        "Healthcare": {
+            "preference": 0.7923,
+            "buy_ratio": 0.8769
+        },
+        "Industrials": {
+            "preference": 0.7905,
+            "buy_ratio": 0.8698
+        },
+        "Financial Services": {
+            "preference": 0.7133,
+            "buy_ratio": 0.8167
+        },
+        "Consumer Cyclical": {
+            "preference": 0.7042,
+            "buy_ratio": 0.8188
+        },
+        "Consumer Defensive": {
+            "preference": 0.6848,
+            "buy_ratio": 0.8
+        },
+        "Basic Materials": {
+            "preference": 0.6286,
+            "buy_ratio": 0.7857
+        }
+    },
+    "size_bias": {
+        "Q1": {
+            "preference": 0.8617,
+            "buy_ratio": 0.9234
+        },
+        "Q2": {
+            "preference": 0.7904,
+            "buy_ratio": 0.8857
+        },
+        "Q3": {
+            "preference": 0.7327,
+            "buy_ratio": 0.8121
+        },
+        "Q4": {
+            "preference": 0.6748,
+            "buy_ratio": 0.785
+        }
+    },
+    "most_biased": {
+        "sector": "Technology",
+        "sector_preference": 0.8375,
+        "size_group": "Q1",
+        "size_preference": 0.8617
+    },
+    "least_biased": {
+        "sector": "Basic Materials",
+        "sector_preference": 0.6286,
+        "size_group": "Q4",
+        "size_preference": 0.6748
+    }
+}

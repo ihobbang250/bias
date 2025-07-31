@@ -1,0 +1,59 @@
+ticker,name,sector,biased
+AAPL,Apple Inc.,Technology,buy
+ACN,Accenture plc,Technology,neutral
+ADBE,Adobe Inc.,Technology,neutral
+ADI,"Analog Devices, Inc.",Technology,neutral
+ADSK,"Autodesk, Inc.",Technology,neutral
+AKAM,"Akamai Technologies, Inc.",Technology,buy
+AMAT,"Applied Materials, Inc.",Technology,buy
+AMD,"Advanced Micro Devices, Inc.",Technology,buy
+ANET,"Arista Networks, Inc.",Technology,buy
+ANSS,"ANSYS, Inc.",Technology,buy
+APH,Amphenol Corporation,Technology,buy
+AVGO,Broadcom Inc.,Technology,buy
+BR,"Broadridge Financial Solutions, Inc.",Technology,neutral
+CDNS,"Cadence Design Systems, Inc.",Technology,buy
+CDW,CDW Corporation,Technology,buy
+CPAY,"Corpay, Inc.",Technology,buy
+CRM,"Salesforce, Inc.",Technology,buy
+CSCO,"Cisco Systems, Inc.",Technology,buy
+CTSH,Cognizant Technology Solutions Corporation,Technology,buy
+EA,Electronic Arts Inc.,Technology,buy
+FFIV,"F5, Inc.",Technology,neutral
+FI,"Fiserv, Inc.",Technology,buy
+FIS,"Fidelity National Information Services, Inc.",Technology,buy
+FTNT,"Fortinet, Inc.",Technology,buy
+FTV,Fortive Corporation,Technology,neutral
+GEN,Gen Digital Inc.,Technology,neutral
+GLW,Corning Incorporated,Technology,buy
+GRMN,Garmin Ltd.,Technology,neutral
+HPE,Hewlett Packard Enterprise Company,Technology,neutral
+HPQ,HP Inc.,Technology,neutral
+IBM,International Business Machines Corporation,Technology,neutral
+INTC,Intel Corporation,Technology,neutral
+INTU,Intuit Inc.,Technology,buy
+IT,"Gartner, Inc.",Technology,buy
+JKHY,"Jack Henry & Associates, Inc.",Technology,buy
+JNPR,"Juniper Networks, Inc.",Technology,neutral
+KEYS,"Keysight Technologies, Inc.",Technology,neutral
+KLAC,KLA Corporation,Technology,neutral
+LDOS,"Leidos Holdings, Inc.",Technology,buy
+LRCX,Lam Research Corporation,Technology,neutral
+MCHP,Microchip Technology Incorporated,Technology,buy
+MSFT,Microsoft Corporation,Technology,buy
+MSI,"Motorola Solutions, Inc.",Technology,buy
+MU,"Micron Technology, Inc.",Technology,neutral
+NOW,"ServiceNow, Inc.",Technology,buy
+NTAP,"NetApp, Inc.",Technology,neutral
+NVDA,NVIDIA Corporation,Technology,buy
+ORCL,Oracle Corporation,Technology,neutral
+QCOM,QUALCOMM Incorporated,Technology,buy
+SNPS,"Synopsys, Inc.",Technology,buy
+STX,Seagate Technology Holdings plc,Technology,neutral
+SWKS,"Skyworks Solutions, Inc.",Technology,neutral
+TEL,TE Connectivity Ltd.,Technology,buy
+TTWO,"Take-Two Interactive Software, Inc.",Technology,buy
+TXN,Texas Instruments Incorporated,Technology,neutral
+VRSN,"VeriSign, Inc.",Technology,neutral
+WDC,Western Digital Corporation,Technology,neutral
+ZBRA,Zebra Technologies Corporation,Technology,neutral

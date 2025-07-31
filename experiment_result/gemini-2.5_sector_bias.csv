@@ -1,0 +1,20 @@
+ticker,name,sector,biased
+APA,APA Corporation,Energy,neutral
+BKR,Baker Hughes Company,Energy,neutral
+COP,ConocoPhillips,Energy,buy
+CTRA,Coterra Energy Inc.,Energy,neutral
+CVX,Chevron Corporation,Energy,neutral
+DVN,Devon Energy Corporation,Energy,neutral
+EOG,"EOG Resources, Inc.",Energy,neutral
+FANG,"Diamondback Energy, Inc.",Energy,neutral
+HAL,Halliburton Company,Energy,neutral
+HES,Hess Corporation,Energy,neutral
+KMI,"Kinder Morgan, Inc.",Energy,buy
+MPC,Marathon Petroleum Corporation,Energy,neutral
+OKE,"ONEOK, Inc.",Energy,neutral
+OXY,Occidental Petroleum Corporation,Energy,neutral
+PSX,Phillips 66,Energy,neutral
+SLB,Schlumberger Limited,Energy,neutral
+VLO,Valero Energy Corporation,Energy,neutral
+WMB,"The Williams Companies, Inc.",Energy,neutral
+XOM,Exxon Mobil Corporation,Energy,neutral

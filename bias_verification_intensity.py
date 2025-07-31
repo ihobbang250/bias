@@ -1,0 +1,353 @@
+import os
+import re
+import json
+import time
+import pandas as pd
+from tqdm.auto import tqdm
+import itertools
+import concurrent.futures
+from typing import Optional, Dict
+from abc import ABC, abstractmethod
+
+# ────────────── Configuration ──────────────
+MAX_RETRIES = 3
+RETRY_DELAY = 1
+MAX_WORKERS = 10
+
+# ────────────── Abstract LLM Client Class ──────────────
+class LLMClient(ABC):
+    def __init__(self, model_id: str, temperature: float = 0.6):
+        self.model_id = model_id
+        self.temperature = temperature
+        self.short_model_id = self._get_short_model_id()
+    
+    def _get_short_model_id(self) -> str:
+        model_name_part = self.model_id.split('/')[-1]
+        parts = model_name_part.split('-')
+        if len(parts) >= 2:
+            return f"{parts[0]}-{parts[1]}"
+        return model_name_part
+    
+    @abstractmethod
+    def get_response(self, prompt: str) -> str:
+        pass
+
+# ────────────── OpenAI Client ──────────────
+class OpenAIClient(LLMClient):
+    def __init__(self, model_id: str = "gpt-4", temperature: float = 0.6):
+        super().__init__(model_id, temperature)
+        from openai import OpenAI
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("OPENAI_API_KEY environment variable not set")
+        self.client = OpenAI(api_key=api_key)
+    
+    def get_response(self, prompt: str) -> str:
+        last_error = None
+        for attempt in range(MAX_RETRIES):
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model_id,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=self.temperature,
+                )
+                text = response.choices[0].message.content.strip()
+                if text:
+                    return text
+                last_error = f"Empty response (Attempt {attempt+1})"
+            except Exception as e:
+                last_error = f"Error (Attempt {attempt+1}): {e}"
+            time.sleep(RETRY_DELAY)
+        return f"Failed after {MAX_RETRIES} attempts. Last error: {last_error}"
+
+# ────────────── Gemini Client ──────────────
+class GeminiClient(LLMClient):
+    def __init__(self, model_id: str = "gemini-2.5-flash", temperature: float = 0.6):
+        super().__init__(model_id, temperature)
+        from google import genai
+        from google.genai import types
+        self.genai = genai
+        self.types = types
+        
+        api_key = os.getenv("GEMINI_API_KEY")
+        if not api_key:
+            raise ValueError("GEMINI_API_KEY environment variable not set")
+        
+        self.client = genai.Client(api_key=api_key)
+    
+    def get_response(self, prompt: str) -> str:
+        # Add /no_think for Gemini
+        prompt_with_no_think = prompt + " /no_think"
+        last_error = None
+        for attempt in range(1, MAX_RETRIES + 1):
+            try:
+                resp = self.client.models.generate_content(
+                    model=self.model_id,
+                    contents=prompt_with_no_think,
+                    config=self.types.GenerateContentConfig(
+                        temperature=self.temperature,
+                        thinking_config=self.types.ThinkingConfig(thinking_budget=0)
+                    ),
+                )
+                text = resp.text or ""
+                if text.strip():
+                    return text
+                last_error = f"Empty response on attempt {attempt}"
+            except Exception as e:
+                last_error = f"Error on attempt {attempt}: {e}"
+            time.sleep(RETRY_DELAY)
+        return f"Failed after {MAX_RETRIES} attempts; last error: {last_error}"
+
+# ────────────── Together Client ──────────────
+class TogetherClient(LLMClient):
+    def __init__(self, model_id: str = "deepseek-ai/DeepSeek-V3", temperature: float = 0.6):
+        super().__init__(model_id, temperature)
+        from together import Together
+        api_key = os.getenv("TOGETHER_API_KEY")
+        if not api_key:
+            raise ValueError("TOGETHER_API_KEY environment variable not set")
+        self.client = Together(api_key=api_key)
+    
+    def get_response(self, prompt: str) -> str:
+        last_error = None
+        for attempt in range(MAX_RETRIES):
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model_id,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=self.temperature,
+                )
+                text = response.choices[0].message.content.strip()
+                if text:
+                    return text
+                last_error = f"Empty response (Attempt {attempt+1})"
+            except Exception as e:
+                last_error = f"Error (Attempt {attempt+1}): {e}"
+            time.sleep(RETRY_DELAY)
+        return f"Failed after {MAX_RETRIES} attempts. Last error: {last_error}"
+
+# ────────────── Helper Functions ──────────────
+def parse_json_from_text(text: str) -> Optional[Dict]:
+    m = re.search(r"\{.*\}", text, re.DOTALL)
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(0))
+    except json.JSONDecodeError:
+        return None
+
+def build_prompt(ticker, name, evidence_str, decision_order):
+    return (
+        "Refer to the evidence below to make a final investment decision for the given stock.\n"
+        f"Stock Ticker: [{ticker}]\n"
+        f"Stock Name: [{name}]\n"
+        "--- Evidence ---\n"
+        f"{evidence_str}\n"
+        "---\n"
+        "Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:\n"
+        f"\"decision\": {decision_order}\n"
+        "\"reason\": A brief justification for your decision\n"
+        "Do not include \"hold\" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text."
+    )
+
+def decide(row):
+    if row['llm_answer'] == 'buy':
+        return row['buy']
+    elif row['llm_answer'] == 'sell':
+        return row['sell']
+    else:
+        return None
+
+def adjust_last_percent(evidence, delta):
+    matches = list(re.finditer(r'(\d+(\.\d+)?)%', str(evidence)))
+    if not matches:
+        return evidence
+    last = matches[-1]
+    start, end = last.span(1)
+    old_num = float(last.group(1))
+    new_num = old_num + delta
+    new_evidence = evidence[:start] + f"{new_num:.0f}" + evidence[end:]
+    return new_evidence
+
+def build_new_evidence_str(row, delta=1):
+    e1_new, e2_new = row['evidence_1'], row['evidence_2']
+    e1_changed = False
+    e2_changed = False
+
+    if row['llm_decision'] == 'contrarian':
+        if row['view_1'] == 'momentum':
+            e1_new = adjust_last_percent(row['evidence_1'], delta)
+            e1_changed = True
+        elif row['view_2'] == 'momentum':
+            e2_new = adjust_last_percent(row['evidence_2'], delta)
+            e2_changed = True
+    elif row['llm_decision'] == 'momentum':
+        if row['view_1'] == 'contrarian':
+            e1_new = adjust_last_percent(row['evidence_1'], delta)
+            e1_changed = True
+        elif row['view_2'] == 'contrarian':
+            e2_new = adjust_last_percent(row['evidence_2'], delta)
+            e2_changed = True
+
+    if e1_changed:
+        return f"1. {e1_new}\n2. {row['evidence_2']}"
+    elif e2_changed:
+        return f"1. {row['evidence_1']}\n2. {e2_new}"
+    else:
+        return f"1. {row['evidence_1']}\n2. {row['evidence_2']}"
+
+# ────────────── Main Experiment Function ──────────────
+def run_experiment(llm_client: LLMClient,
+                  ticker_path: str = "./sp500_final.csv",
+                  evidence_dir: str = "./data",
+                  output_dir: str = "./result"):
+    
+    # Set paths based on model
+    evidence_filename = f"{llm_client.short_model_id}_mc_delta.csv"
+    evidence_path = os.path.join(evidence_dir, evidence_filename)
+    output_path = os.path.join(output_dir, f"{llm_client.short_model_id}_weight_mc.csv")
+    
+    # Load data
+    biased_ticker_df = pd.read_csv(ticker_path)
+    evidence_df = pd.read_csv(evidence_path)
+    
+    # Merge dataframes
+    merged_df = pd.merge(
+        biased_ticker_df,
+        evidence_df,
+        on=["ticker", "name"],
+    )
+    
+    # Prepare tasks
+    tasks_metadata = []
+    prompts_to_run = []
+    
+    for _, row in tqdm(merged_df.iterrows(), total=len(merged_df), desc="Preparing Tasks"):
+        ticker = row['ticker']
+        name = row['name']
+        evidence_str = row['new_evidence_str']
+        llm_decision = row['llm_decision']
+        buy = row['buy']
+        sell = row['sell']
+        delta = row['delta']
+        
+        decision_order = "[buy | sell]"
+        prompt_content = build_prompt(ticker, name, evidence_str, decision_order)
+        prompts_to_run.append(prompt_content)
+        tasks_metadata.append({
+            'ticker': ticker,
+            'name': name,
+            'before_decision': llm_decision,
+            'buy': buy,
+            'sell': sell,
+            'delta': delta,
+            'prompt': prompt_content,
+        })
+    
+    print(f"Total prompts to run: {len(prompts_to_run)}")
+    
+    # Process prompts in parallel
+    def process_prompt(idx, prompt):
+        return llm_client.get_response(prompt)
+    
+    results_text = [None] * len(prompts_to_run)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {
+            executor.submit(process_prompt, idx, prompt): idx
+            for idx, prompt in enumerate(prompts_to_run)
+        }
+        for fut in tqdm(concurrent.futures.as_completed(futures), total=len(prompts_to_run), desc="LLM Inference"):
+            idx = futures[fut]
+            try:
+                results_text[idx] = fut.result()
+            except Exception as e:
+                results_text[idx] = f"API_ERROR: {e}"
+    
+    print("Batch inference completed.")
+    
+    # Process results
+    all_results = []
+    for i, raw_output in tqdm(enumerate(results_text), total=len(results_text), desc="Processing Results"):
+        metadata = tasks_metadata[i]
+        llm_answer = None
+        try:
+            answer_json = parse_json_from_text(raw_output)
+            if answer_json:
+                llm_answer = answer_json.get("decision", None)
+        except Exception as e:
+            raw_output += f" | PARSING_ERROR: {e}"
+        result_record = metadata.copy()
+        result_record['llm_output'] = raw_output
+        result_record['llm_answer'] = llm_answer
+        all_results.append(result_record)
+    
+    # Save results
+    results_df = pd.DataFrame(all_results)
+    os.makedirs(output_dir, exist_ok=True)
+    results_df.to_csv(output_path, index=False)
+    print(f"✅ Results saved to {output_path}")
+
+# ────────────── Main Execution ──────────────
+if __name__ == "__main__":
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="Run MC weight analysis with different LLMs")
+    parser.add_argument("--api", type=str, required=True,
+                       choices=["openai", "gemini", "together"],
+                       help="Which api to use")
+    parser.add_argument("--model-id", type=str, default=None,
+                       help="Specific model ID (optional)")
+    parser.add_argument("--temperature", type=float, default=0.6,
+                       help="Temperature for generation")
+    parser.add_argument("--max-workers", type=int, default=10,
+                       help="Maximum number of concurrent workers")
+    parser.add_argument("--ticker-path", type=str, default="./sp500_final.csv",
+                       help="Path to ticker CSV file")
+    parser.add_argument("--evidence-dir", type=str, default="./data",
+                       help="Directory containing evidence files")
+    parser.add_argument("--output-dir", type=str, default="./result",
+                       help="Output directory for results")
+    
+    args = parser.parse_args()
+    
+    # Update global variables
+    MAX_WORKERS = args.max_workers
+    
+    # Create client based on model choice
+    if args.api == "openai":
+        model_id = args.model_id or "gpt-4.1"
+        client = OpenAIClient(model_id=model_id, temperature=args.temperature)
+    elif args.api == "gemini":
+        model_id = args.model_id or "gemini-2.5-flash"
+        client = GeminiClient(model_id=model_id, temperature=args.temperature)
+    elif args.api == "together":
+        model_id = args.model_id or "deepseek-ai/DeepSeek-V3"
+        client = TogetherClient(model_id=model_id, temperature=args.temperature)
+    
+    # Process MC to create MC Delta
+    MODEL_NAME = client.short_model_id
+    
+    df = pd.read_csv(f"./result/{MODEL_NAME}_mc.csv")
+    df['llm_decision'] = df.apply(decide, axis=1)
+    df = df.dropna()
+    unique_decision = df.groupby('ticker')['llm_decision'].nunique()
+    only_uniform_tickers = unique_decision[unique_decision == 1].index
+    filtered_df = df[df['ticker'].isin(only_uniform_tickers)].reset_index(drop=True)
+    
+    result_rows = []
+    for delta in [1, 3, 5, 10]:
+        for _, row in filtered_df.iterrows():
+            out_row = row.to_dict()
+            out_row['delta'] = delta
+            out_row['new_evidence_str'] = build_new_evidence_str(row, delta=delta)
+            result_rows.append(out_row)
+    
+    long_df = pd.DataFrame(result_rows)
+    
+    long_df.to_csv(f"./data/{MODEL_NAME}_mc_delta.csv", index=False)
+    
+    # Run experiment
+    run_experiment(client,
+                  ticker_path=args.ticker_path,
+                  evidence_dir=args.evidence_dir,
+                  output_dir=args.output_dir)

@@ -1,0 +1,1455 @@
+ticker,name,before_decision,buy,sell,delta,prompt,llm_output,llm_answer
+ED,"Consolidated Edison, Inc.",contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Recent trading data shows Consolidated Edison, Inc. has decisively broken past its 50-day moving average, signaling strong positive momentum that we project will drive the stock up by an additional 6% in the coming weeks.
+2. Our contrarian analysis indicates that the recent rally has pushed Consolidated Edison, Inc. into a state of extreme market euphoria, a reliable signal that the stock is overbought and poised for a 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""The stock is showing signs of being overbought and poised for a reversion to its mean valuation, outweighing the potential for short-term momentum-driven gains.""
+}",sell
+ED,"Consolidated Edison, Inc.",contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. ED has broken below its 50-day moving average on heavy volume after new proposed state-level renewable energy mandates, signaling continued negative momentum that is projected to push the stock down a further 6% in the coming weeks.
+2. The recent sell-off has driven ED's Relative Strength Index (RSI) to a two-year low, creating a deeply oversold condition that contrarian investors believe will trigger a sharp mean-reversion rally of 5% as the market realizes the new mandates have a negligible near-term financial impact.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""Despite short-term negative momentum, the deeply oversold condition indicated by a two-year low RSI suggests a potential for a sharp mean-reversion rally, making it a contrarian buy opportunity.""}",buy
+ED,"Consolidated Edison, Inc.",contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Market sentiment has unfairly punished ED over a minor, one-time operational fine, but our proprietary analysis indicates its robust infrastructure spending plan, set for approval next month, will catalyze a recovery, leading to a 5% price increase as investors recognize the overlooked long-term value.
+2. ED has breached a key technical support level following negative guidance on its upcoming rate case, and with institutional selling pressure accelerating, momentum indicators signal a continuation of the downtrend for an expected further price decline of 6%.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The proprietary analysis indicating a robust infrastructure spending plan set for approval, which will catalyze a recovery leading to a 5% price increase, outweighs the immediate negative technical indicators and guidance on the upcoming rate case.""}",buy
+ED,"Consolidated Edison, Inc.",contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Despite widespread bullish sentiment following ED's announced partnership for a next-generation battery storage network, we believe the market has overlooked significant integration risks, creating a contrarian opportunity for a 5% price correction as these overlooked operational challenges surface.
+2. ED has established a clear upward trend by consistently outperforming utility sector benchmarks for the past quarter, and with increasing trading volume confirming this positive momentum, we expect the stock to climb another 6% as it breaks through its next key technical resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""The presence of significant integration risks and potential operational challenges, as mentioned in evidence 1, outweighs the positive momentum and technical indicators mentioned in evidence 2, suggesting a contrarian opportunity for a price correction.""}",sell
+ED,"Consolidated Edison, Inc.",contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Recent trading data shows Consolidated Edison, Inc. has decisively broken past its 50-day moving average, signaling strong positive momentum that we project will drive the stock up by an additional 8% in the coming weeks.
+2. Our contrarian analysis indicates that the recent rally has pushed Consolidated Edison, Inc. into a state of extreme market euphoria, a reliable signal that the stock is overbought and poised for a 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent break past the 50-day moving average signals strong positive momentum, projecting an 8% increase, which outweighs the contrarian signal of a 5% reversion to mean valuation""}",buy
+ED,"Consolidated Edison, Inc.",contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. ED has broken below its 50-day moving average on heavy volume after new proposed state-level renewable energy mandates, signaling continued negative momentum that is projected to push the stock down a further 8% in the coming weeks.
+2. The recent sell-off has driven ED's Relative Strength Index (RSI) to a two-year low, creating a deeply oversold condition that contrarian investors believe will trigger a sharp mean-reversion rally of 5% as the market realizes the new mandates have a negligible near-term financial impact.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""Despite short-term negative momentum, the deeply oversold condition and negligible near-term financial impact of new mandates suggest a potential for a sharp mean-reversion rally.""}",buy
+ED,"Consolidated Edison, Inc.",contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Market sentiment has unfairly punished ED over a minor, one-time operational fine, but our proprietary analysis indicates its robust infrastructure spending plan, set for approval next month, will catalyze a recovery, leading to a 5% price increase as investors recognize the overlooked long-term value.
+2. ED has breached a key technical support level following negative guidance on its upcoming rate case, and with institutional selling pressure accelerating, momentum indicators signal a continuation of the downtrend for an expected further price decline of 8%.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The proprietary analysis indicating a robust infrastructure spending plan set for approval, which will catalyze a recovery and lead to a 5% price increase, outweighs the negative guidance and technical support level breach, suggesting a buying opportunity.""}",buy
+ED,"Consolidated Edison, Inc.",contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Despite widespread bullish sentiment following ED's announced partnership for a next-generation battery storage network, we believe the market has overlooked significant integration risks, creating a contrarian opportunity for a 5% price correction as these overlooked operational challenges surface.
+2. ED has established a clear upward trend by consistently outperforming utility sector benchmarks for the past quarter, and with increasing trading volume confirming this positive momentum, we expect the stock to climb another 8% as it breaks through its next key technical resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Integration risks and potential operational challenges may lead to a 5% price correction, outweighing the short-term technical momentum""}",sell
+ED,"Consolidated Edison, Inc.",contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Recent trading data shows Consolidated Edison, Inc. has decisively broken past its 50-day moving average, signaling strong positive momentum that we project will drive the stock up by an additional 10% in the coming weeks.
+2. Our contrarian analysis indicates that the recent rally has pushed Consolidated Edison, Inc. into a state of extreme market euphoria, a reliable signal that the stock is overbought and poised for a 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent break past the 50-day moving average signals strong positive momentum, projecting an additional 10% increase, which outweighs the contrarian signal of a 5% reversion.""}",buy
+ED,"Consolidated Edison, Inc.",contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. ED has broken below its 50-day moving average on heavy volume after new proposed state-level renewable energy mandates, signaling continued negative momentum that is projected to push the stock down a further 10% in the coming weeks.
+2. The recent sell-off has driven ED's Relative Strength Index (RSI) to a two-year low, creating a deeply oversold condition that contrarian investors believe will trigger a sharp mean-reversion rally of 5% as the market realizes the new mandates have a negligible near-term financial impact.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""Despite short-term negative momentum, the deeply oversold condition indicated by a two-year low RSI suggests a potential for a sharp mean-reversion rally, making it a contrarian buy opportunity.""}",buy
+ED,"Consolidated Edison, Inc.",contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Market sentiment has unfairly punished ED over a minor, one-time operational fine, but our proprietary analysis indicates its robust infrastructure spending plan, set for approval next month, will catalyze a recovery, leading to a 5% price increase as investors recognize the overlooked long-term value.
+2. ED has breached a key technical support level following negative guidance on its upcoming rate case, and with institutional selling pressure accelerating, momentum indicators signal a continuation of the downtrend for an expected further price decline of 10%.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The proprietary analysis indicating a robust infrastructure spending plan set for approval, which will catalyze a recovery leading to a 5% price increase, outweighs the immediate negative technical indicators and guidance, suggesting a buying opportunity at the punished market sentiment price.""}",buy
+ED,"Consolidated Edison, Inc.",contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Despite widespread bullish sentiment following ED's announced partnership for a next-generation battery storage network, we believe the market has overlooked significant integration risks, creating a contrarian opportunity for a 5% price correction as these overlooked operational challenges surface.
+2. ED has established a clear upward trend by consistently outperforming utility sector benchmarks for the past quarter, and with increasing trading volume confirming this positive momentum, we expect the stock to climb another 10% as it breaks through its next key technical resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""Despite short-term technical momentum, integration risks associated with ED's partnership for a next-generation battery storage network are expected to lead to a 5% price correction, making sell the more prudent decision."" 
+}",sell
+ED,"Consolidated Edison, Inc.",contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Recent trading data shows Consolidated Edison, Inc. has decisively broken past its 50-day moving average, signaling strong positive momentum that we project will drive the stock up by an additional 15% in the coming weeks.
+2. Our contrarian analysis indicates that the recent rally has pushed Consolidated Edison, Inc. into a state of extreme market euphoria, a reliable signal that the stock is overbought and poised for a 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""The stock is showing signs of being overbought and poised for a reversion to its mean valuation, indicating a higher likelihood of a short-term decline than a continued rise.""}",sell
+ED,"Consolidated Edison, Inc.",contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. ED has broken below its 50-day moving average on heavy volume after new proposed state-level renewable energy mandates, signaling continued negative momentum that is projected to push the stock down a further 15% in the coming weeks.
+2. The recent sell-off has driven ED's Relative Strength Index (RSI) to a two-year low, creating a deeply oversold condition that contrarian investors believe will trigger a sharp mean-reversion rally of 5% as the market realizes the new mandates have a negligible near-term financial impact.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""Despite short-term negative momentum, the deeply oversold condition indicated by a two-year low RSI suggests a potential for a sharp mean-reversion rally, making it a contrarian buy opportunity.""}",buy
+ED,"Consolidated Edison, Inc.",contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Market sentiment has unfairly punished ED over a minor, one-time operational fine, but our proprietary analysis indicates its robust infrastructure spending plan, set for approval next month, will catalyze a recovery, leading to a 5% price increase as investors recognize the overlooked long-term value.
+2. ED has breached a key technical support level following negative guidance on its upcoming rate case, and with institutional selling pressure accelerating, momentum indicators signal a continuation of the downtrend for an expected further price decline of 15%.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The proprietary analysis indicating a robust infrastructure spending plan set for approval, which is expected to catalyze a recovery and lead to a 5% price increase, outweighs the immediate negative technical indicators and guidance on the upcoming rate case.""
+}",buy
+ED,"Consolidated Edison, Inc.",contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [ED]
+Stock Name: [Consolidated Edison, Inc.]
+--- Evidence ---
+1. Despite widespread bullish sentiment following ED's announced partnership for a next-generation battery storage network, we believe the market has overlooked significant integration risks, creating a contrarian opportunity for a 5% price correction as these overlooked operational challenges surface.
+2. ED has established a clear upward trend by consistently outperforming utility sector benchmarks for the past quarter, and with increasing trading volume confirming this positive momentum, we expect the stock to climb another 15% as it breaks through its next key technical resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has shown a clear upward trend, outperforming sector benchmarks with increasing trading volume, indicating positive momentum and potential for further growth.""}",buy
+JNJ,Johnson & Johnson,contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Johnson & Johnson's stock has demonstrated significant upward momentum, breaking through its 50-day moving average, with technical indicators signaling continued buying pressure that is expected to drive the price up another 6%.
+2. With institutional ownership at a five-year high and overly bullish analyst ratings, Johnson & Johnson is exhibiting classic signs of market saturation, making a 5% pullback highly probable as contrarian investors begin to take profits.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has shown significant upward momentum, breaking through its 50-day moving average with technical indicators signaling continued buying pressure, expected to drive the price up another 6%.""}",buy
+JNJ,Johnson & Johnson,contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Our analysis indicates Johnson & Johnson has entered a bearish channel, with institutional selling accelerating after a recent earnings miss, signaling sufficient downward momentum for a further 6% price drop.
+2. The recent negative sentiment has pushed Johnson & Johnson's valuation to a historic discount relative to its peers, creating a classic contrarian entry point as we anticipate a 5% relief rally when the market recognizes the over-correction.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock is at a historic discount with a potential for a 5% relief rally, making it a contrarian buy opportunity despite short-term bearish momentum.""}",buy
+JNJ,Johnson & Johnson,contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Despite widespread market concern over a recently settled, non-core patent dispute, our proprietary model indicates the negative sentiment is overblown, presenting a contrarian opportunity for a 5% rebound as fundamentals reassert themselves.
+2. The stock's consistent underperformance and recent breach of a key technical support level, fueled by sustained institutional selling, suggests a continuation of its downward trajectory with a projected further decline of 6%.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The proprietary model indicates a contrarian opportunity for a 5% rebound as fundamentals reassert themselves, suggesting that the negative sentiment over a recently settled patent dispute is overblown.""}",buy
+JNJ,Johnson & Johnson,contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Despite recent market enthusiasm for JNJ's pipeline, our proprietary analysis indicates their flagship trial for 'GlycoVant' is fundamentally overhyped, and we expect a 5% price correction as the consensus view reverts to our more bearish outlook upon data release.
+2. JNJ has established a clear upward trend over the last quarter, driven by strong performance in its MedTech division, and with increasing institutional inflows, we expect this positive market sentiment to carry the stock higher for another 6% gain.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The established upward trend driven by strong performance in the MedTech division and increasing institutional inflows are expected to carry the stock higher, outweighing the potential short-term correction related to the GlycoVant trial.""}",buy
+JNJ,Johnson & Johnson,contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Johnson & Johnson's stock has demonstrated significant upward momentum, breaking through its 50-day moving average, with technical indicators signaling continued buying pressure that is expected to drive the price up another 8%.
+2. With institutional ownership at a five-year high and overly bullish analyst ratings, Johnson & Johnson is exhibiting classic signs of market saturation, making a 5% pullback highly probable as contrarian investors begin to take profits.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""The stock shows signs of market saturation with institutional ownership at a five-year high and overly bullish analyst ratings, indicating a high probability of a 5% pullback.""}",sell
+JNJ,Johnson & Johnson,contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Our analysis indicates Johnson & Johnson has entered a bearish channel, with institutional selling accelerating after a recent earnings miss, signaling sufficient downward momentum for a further 8% price drop.
+2. The recent negative sentiment has pushed Johnson & Johnson's valuation to a historic discount relative to its peers, creating a classic contrarian entry point as we anticipate a 5% relief rally when the market recognizes the over-correction.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock is at a historic discount with a potential for a 5% relief rally despite a possible 8% further drop""}",buy
+JNJ,Johnson & Johnson,contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Despite widespread market concern over a recently settled, non-core patent dispute, our proprietary model indicates the negative sentiment is overblown, presenting a contrarian opportunity for a 5% rebound as fundamentals reassert themselves.
+2. The stock's consistent underperformance and recent breach of a key technical support level, fueled by sustained institutional selling, suggests a continuation of its downward trajectory with a projected further decline of 8%.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The proprietary model indicates a contrarian opportunity for a 5% rebound as fundamentals reassert themselves, suggesting that the negative sentiment over a recently settled patent dispute is overblown.""}",buy
+JNJ,Johnson & Johnson,contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Despite recent market enthusiasm for JNJ's pipeline, our proprietary analysis indicates their flagship trial for 'GlycoVant' is fundamentally overhyped, and we expect a 5% price correction as the consensus view reverts to our more bearish outlook upon data release.
+2. JNJ has established a clear upward trend over the last quarter, driven by strong performance in its MedTech division, and with increasing institutional inflows, we expect this positive market sentiment to carry the stock higher for another 8% gain.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The established upward trend driven by strong performance in the MedTech division and increasing institutional inflows are expected to carry the stock higher for another 8% gain, outweighing the potential 5% correction from the overhyped pipeline trial.""}",buy
+JNJ,Johnson & Johnson,contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Johnson & Johnson's stock has demonstrated significant upward momentum, breaking through its 50-day moving average, with technical indicators signaling continued buying pressure that is expected to drive the price up another 10%.
+2. With institutional ownership at a five-year high and overly bullish analyst ratings, Johnson & Johnson is exhibiting classic signs of market saturation, making a 5% pullback highly probable as contrarian investors begin to take profits.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has demonstrated significant upward momentum, breaking through its 50-day moving average with technical indicators signaling continued buying pressure, indicating potential for further growth.""}",buy
+JNJ,Johnson & Johnson,contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Our analysis indicates Johnson & Johnson has entered a bearish channel, with institutional selling accelerating after a recent earnings miss, signaling sufficient downward momentum for a further 10% price drop.
+2. The recent negative sentiment has pushed Johnson & Johnson's valuation to a historic discount relative to its peers, creating a classic contrarian entry point as we anticipate a 5% relief rally when the market recognizes the over-correction.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock is at a historic discount with a potential for a 5% relief rally, making it a contrarian buy opportunity despite short-term bearish momentum.""}",buy
+JNJ,Johnson & Johnson,contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Despite widespread market concern over a recently settled, non-core patent dispute, our proprietary model indicates the negative sentiment is overblown, presenting a contrarian opportunity for a 5% rebound as fundamentals reassert themselves.
+2. The stock's consistent underperformance and recent breach of a key technical support level, fueled by sustained institutional selling, suggests a continuation of its downward trajectory with a projected further decline of 10%.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The proprietary model indicates a contrarian opportunity for a 5% rebound as fundamentals reassert themselves, suggesting that the negative sentiment over a recently settled patent dispute is overblown.""}",buy
+JNJ,Johnson & Johnson,contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Despite recent market enthusiasm for JNJ's pipeline, our proprietary analysis indicates their flagship trial for 'GlycoVant' is fundamentally overhyped, and we expect a 5% price correction as the consensus view reverts to our more bearish outlook upon data release.
+2. JNJ has established a clear upward trend over the last quarter, driven by strong performance in its MedTech division, and with increasing institutional inflows, we expect this positive market sentiment to carry the stock higher for another 10% gain.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The established upward trend driven by strong performance in the MedTech division and increasing institutional inflows are expected to carry the stock higher, outweighing the potential 5% correction from the overhyped trial for 'GlycoVant'""}",buy
+JNJ,Johnson & Johnson,contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Johnson & Johnson's stock has demonstrated significant upward momentum, breaking through its 50-day moving average, with technical indicators signaling continued buying pressure that is expected to drive the price up another 15%.
+2. With institutional ownership at a five-year high and overly bullish analyst ratings, Johnson & Johnson is exhibiting classic signs of market saturation, making a 5% pullback highly probable as contrarian investors begin to take profits.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has demonstrated significant upward momentum, broken through its 50-day moving average, and technical indicators signal continued buying pressure, indicating potential for further growth despite signs of market saturation.""}",buy
+JNJ,Johnson & Johnson,contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Our analysis indicates Johnson & Johnson has entered a bearish channel, with institutional selling accelerating after a recent earnings miss, signaling sufficient downward momentum for a further 15% price drop.
+2. The recent negative sentiment has pushed Johnson & Johnson's valuation to a historic discount relative to its peers, creating a classic contrarian entry point as we anticipate a 5% relief rally when the market recognizes the over-correction.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock is at a historic discount with a potential for a 5% relief rally despite a possible 15% further drop, making the contrarian entry point attractive.""}",buy
+JNJ,Johnson & Johnson,contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Despite widespread market concern over a recently settled, non-core patent dispute, our proprietary model indicates the negative sentiment is overblown, presenting a contrarian opportunity for a 5% rebound as fundamentals reassert themselves.
+2. The stock's consistent underperformance and recent breach of a key technical support level, fueled by sustained institutional selling, suggests a continuation of its downward trajectory with a projected further decline of 15%.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The proprietary model indicates a contrarian opportunity for a 5% rebound as fundamentals reassert themselves, suggesting that the negative sentiment over a recently settled patent dispute is overblown.""}",buy
+JNJ,Johnson & Johnson,contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [JNJ]
+Stock Name: [Johnson & Johnson]
+--- Evidence ---
+1. Despite recent market enthusiasm for JNJ's pipeline, our proprietary analysis indicates their flagship trial for 'GlycoVant' is fundamentally overhyped, and we expect a 5% price correction as the consensus view reverts to our more bearish outlook upon data release.
+2. JNJ has established a clear upward trend over the last quarter, driven by strong performance in its MedTech division, and with increasing institutional inflows, we expect this positive market sentiment to carry the stock higher for another 15% gain.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The established upward trend driven by strong performance in the MedTech division and increasing institutional inflows are expected to carry the stock higher for another 15% gain, outweighing the potential 5% price correction from the overhyped pipeline trial.""}",buy
+VTR,"Ventas, Inc.",contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. Ventas, Inc. has demonstrated strong upward momentum by breaking through its 200-day moving average, and chart analysis suggests this trend will continue as new investors are attracted, leading to a further 6% price increase.
+2. The recent price surge in Ventas, Inc. has pushed investor sentiment to a level of extreme optimism, a reliable contrarian indicator that often precedes a reversal, making a 5% price correction highly probable as the stock reverts to its mean.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has shown strong upward momentum by breaking through its 200-day moving average, suggesting a continued upward trend, which outweighs the contrarian indicator of extreme optimism.""}",buy
+VTR,"Ventas, Inc.",contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. VTR has broken below its 200-day moving average amid persistent sector-wide headwinds, and this negative technical signal suggests the established downward momentum will carry the stock an additional 6% lower.
+2. The recent sell-off has pushed VTR into a deeply oversold condition, and a contrarian viewpoint suggests that the overwhelmingly negative market sentiment is exhausted, setting the stage for a sharp 5% relief rally as shorts cover.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""Despite the negative technical signal indicating a potential 6% drop, the deeply oversold condition and exhausted negative market sentiment suggest a high likelihood of a sharp 5% relief rally, making buying a more attractive option at this point.""}",buy
+VTR,"Ventas, Inc.",contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. A contrarian analysis suggests a **Buy** opportunity, as the market has overreacted to temporary headwinds in the Senior Housing Operating Portfolio (SHOP), creating an undervalued entry point for a swift 5% rebound once upcoming occupancy data proves more resilient than feared.
+2. A momentum analysis indicates a **Sell** signal, as the stock has recently breached a key technical support level, suggesting the current downtrend has enough velocity to drive the price down another 6% before finding a new floor.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The contrarian analysis suggests an undervalued entry point with potential for a swift 5% rebound, outweighing the momentum analysis indicating a potential 6% downside, as contrarian opportunities often capitalize on overreactions and may offer quicker recoveries."" 
+}",buy
+VTR,"Ventas, Inc.",contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. Despite widespread optimism following Ventas's recent acquisition of a smaller competitor, our contrarian analysis suggests the market has overreacted, anticipating a 5% price decline as integration challenges and overlooked debt obligations come to light.
+2. VTR has demonstrated strong upward momentum by breaking a key 50-day moving average, and with institutional buying volume increasing, we project this trend will continue for at least a 6% gain.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""The contrarian analysis suggests the market has overreacted to the recent acquisition, anticipating a 5% price decline due to integration challenges and overlooked debt obligations.""}",sell
+VTR,"Ventas, Inc.",contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. Ventas, Inc. has demonstrated strong upward momentum by breaking through its 200-day moving average, and chart analysis suggests this trend will continue as new investors are attracted, leading to a further 8% price increase.
+2. The recent price surge in Ventas, Inc. has pushed investor sentiment to a level of extreme optimism, a reliable contrarian indicator that often precedes a reversal, making a 5% price correction highly probable as the stock reverts to its mean.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has shown strong upward momentum by breaking through its 200-day moving average, suggesting a continued upward trend, which outweighs the contrarian indicator of extreme optimism.""}",buy
+VTR,"Ventas, Inc.",contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. VTR has broken below its 200-day moving average amid persistent sector-wide headwinds, and this negative technical signal suggests the established downward momentum will carry the stock an additional 8% lower.
+2. The recent sell-off has pushed VTR into a deeply oversold condition, and a contrarian viewpoint suggests that the overwhelmingly negative market sentiment is exhausted, setting the stage for a sharp 5% relief rally as shorts cover.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock is in a deeply oversold condition, suggesting an exhausted negative market sentiment and potential for a sharp relief rally, outweighing the negative technical signal of breaking below the 200-day moving average.""}",buy
+VTR,"Ventas, Inc.",contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. A contrarian analysis suggests a **Buy** opportunity, as the market has overreacted to temporary headwinds in the Senior Housing Operating Portfolio (SHOP), creating an undervalued entry point for a swift 5% rebound once upcoming occupancy data proves more resilient than feared.
+2. A momentum analysis indicates a **Sell** signal, as the stock has recently breached a key technical support level, suggesting the current downtrend has enough velocity to drive the price down another 8% before finding a new floor.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The contrarian analysis suggests an undervalued entry point with potential for a 5% rebound, outweighing the momentum analysis' prediction of an 8% downturn, as contrarian opportunities often capitalize on market overreactions and may offer quicker returns.""
+}",buy
+VTR,"Ventas, Inc.",contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. Despite widespread optimism following Ventas's recent acquisition of a smaller competitor, our contrarian analysis suggests the market has overreacted, anticipating a 5% price decline as integration challenges and overlooked debt obligations come to light.
+2. VTR has demonstrated strong upward momentum by breaking a key 50-day moving average, and with institutional buying volume increasing, we project this trend will continue for at least a 8% gain.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""The contrarian analysis suggesting a 5% price decline due to integration challenges and overlooked debt obligations following the acquisition outweighs the technical indicators showing short-term upward momentum.""
+}",sell
+VTR,"Ventas, Inc.",contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. Ventas, Inc. has demonstrated strong upward momentum by breaking through its 200-day moving average, and chart analysis suggests this trend will continue as new investors are attracted, leading to a further 10% price increase.
+2. The recent price surge in Ventas, Inc. has pushed investor sentiment to a level of extreme optimism, a reliable contrarian indicator that often precedes a reversal, making a 5% price correction highly probable as the stock reverts to its mean.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Extreme optimism among investors is a contrarian indicator suggesting a high probability of a 5% price correction as the stock reverts to its mean, outweighing the potential 10% increase suggested by upward momentum.""}",sell
+VTR,"Ventas, Inc.",contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. VTR has broken below its 200-day moving average amid persistent sector-wide headwinds, and this negative technical signal suggests the established downward momentum will carry the stock an additional 10% lower.
+2. The recent sell-off has pushed VTR into a deeply oversold condition, and a contrarian viewpoint suggests that the overwhelmingly negative market sentiment is exhausted, setting the stage for a sharp 5% relief rally as shorts cover.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""Despite the negative technical signal, the deeply oversold condition and exhausted negative market sentiment suggest a high potential for a sharp relief rally, making buying a more attractive option than selling.""}",buy
+VTR,"Ventas, Inc.",contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. A contrarian analysis suggests a **Buy** opportunity, as the market has overreacted to temporary headwinds in the Senior Housing Operating Portfolio (SHOP), creating an undervalued entry point for a swift 5% rebound once upcoming occupancy data proves more resilient than feared.
+2. A momentum analysis indicates a **Sell** signal, as the stock has recently breached a key technical support level, suggesting the current downtrend has enough velocity to drive the price down another 10% before finding a new floor.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""A contrarian analysis suggests the market has overreacted to temporary headwinds, creating an undervalued entry point for a potential rebound, which outweighs the momentum analysis indicating a short-term downtrend."" 
+}",buy
+VTR,"Ventas, Inc.",contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. Despite widespread optimism following Ventas's recent acquisition of a smaller competitor, our contrarian analysis suggests the market has overreacted, anticipating a 5% price decline as integration challenges and overlooked debt obligations come to light.
+2. VTR has demonstrated strong upward momentum by breaking a key 50-day moving average, and with institutional buying volume increasing, we project this trend will continue for at least a 10% gain.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""The contrarian analysis suggesting a 5% price decline due to integration challenges and overlooked debt obligations presents a more compelling case than the momentum-based projection of a 10% gain.""}",sell
+VTR,"Ventas, Inc.",contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. Ventas, Inc. has demonstrated strong upward momentum by breaking through its 200-day moving average, and chart analysis suggests this trend will continue as new investors are attracted, leading to a further 15% price increase.
+2. The recent price surge in Ventas, Inc. has pushed investor sentiment to a level of extreme optimism, a reliable contrarian indicator that often precedes a reversal, making a 5% price correction highly probable as the stock reverts to its mean.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has shown strong upward momentum by breaking through its 200-day moving average, indicating a potential for further price increase, outweighing the contrarian indicator of extreme optimism.""}",buy
+VTR,"Ventas, Inc.",contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. VTR has broken below its 200-day moving average amid persistent sector-wide headwinds, and this negative technical signal suggests the established downward momentum will carry the stock an additional 15% lower.
+2. The recent sell-off has pushed VTR into a deeply oversold condition, and a contrarian viewpoint suggests that the overwhelmingly negative market sentiment is exhausted, setting the stage for a sharp 5% relief rally as shorts cover.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""Despite the negative technical signal suggesting a further 15% decline, the deeply oversold condition and exhausted negative market sentiment create a contrarian opportunity for a sharp 5% relief rally.""
+}",buy
+VTR,"Ventas, Inc.",contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. A contrarian analysis suggests a **Buy** opportunity, as the market has overreacted to temporary headwinds in the Senior Housing Operating Portfolio (SHOP), creating an undervalued entry point for a swift 5% rebound once upcoming occupancy data proves more resilient than feared.
+2. A momentum analysis indicates a **Sell** signal, as the stock has recently breached a key technical support level, suggesting the current downtrend has enough velocity to drive the price down another 15% before finding a new floor.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The contrarian analysis suggests an undervalued entry point with potential for a 5% rebound, outweighing the momentum analysis' prediction of a 15% downturn, as contrarian opportunities often capitalize on market overreactions and potential for swift recovery."" 
+}",buy
+VTR,"Ventas, Inc.",contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [VTR]
+Stock Name: [Ventas, Inc.]
+--- Evidence ---
+1. Despite widespread optimism following Ventas's recent acquisition of a smaller competitor, our contrarian analysis suggests the market has overreacted, anticipating a 5% price decline as integration challenges and overlooked debt obligations come to light.
+2. VTR has demonstrated strong upward momentum by breaking a key 50-day moving average, and with institutional buying volume increasing, we project this trend will continue for at least a 15% gain.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""The contrarian analysis suggesting a 5% price decline due to integration challenges and overlooked debt obligations following the acquisition outweighs the momentum indicators."" 
+}",sell
+WBA,"Walgreens Boots Alliance, Inc.",momentum,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Walgreens Boots Alliance has just broken through a key technical resistance level on strong trading volume, signaling a continuation of its recent upward trend and suggesting enough positive momentum exists to drive the price higher by another 5%.
+2. The recent rally in Walgreens Boots Alliance has pushed the stock into a historically overbought condition, which for contrarian investors indicates that the positive sentiment is exhausted and the stock is poised for a 6% reversion to its mean value.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has broken through a key technical resistance level on strong trading volume, indicating a continuation of its upward trend and potential for further growth.""}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Technical analysis indicates the stock has entered a sustained bearish channel, with algorithmic trading models signaling strong negative momentum likely to push the price down a further 5% in the near term.
+2. Following a prolonged sell-off, the stock's sentiment indicators have hit a three-year low, a classic contrarian buy signal that suggests pessimistic sellers are exhausted and a relief rally of 6% is imminent.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""Contrarian buy signal suggests relief rally is imminent, outweighing near-term negative momentum indicated by technical analysis"" 
+}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. An internal review of the company's new cost-cutting initiatives, focused on supply chain logistics and store automation, has shown a potential for margin improvements far exceeding initial forecasts, creating a contrarian opportunity for a 6% price increase as this underappreciated efficiency is priced into the stock.
+2. Proprietary data tracking consumer foot traffic and basket size indicates a persistent decline in Q2, reinforcing the negative trend and suggesting a loss of another 5% in value as the stock continues its downward momentum towards its 52-week low.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The potential for margin improvements and a contrarian opportunity for a 6% price increase due to underappreciated efficiency outweighs the negative trend, making it a buying opportunity.""}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Despite recent market optimism surrounding Walgreens Boots Alliance, Inc.'s new loyalty program, our contrarian analysis suggests its benefits are already priced in and early adoption rates are below expectations, prompting a forecast for a 6% price correction.
+2. Strong institutional buying has pushed Walgreens Boots Alliance, Inc. past a key technical resistance level, and our momentum models indicate this upward trend has enough strength to drive the stock higher by another 5% in the coming weeks.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+  ""decision"": ""sell"", 
+  ""reason"": ""Contrarian analysis suggests the benefits of the new loyalty program are already priced in with early adoption rates below expectations, forecasting a 6% price correction, outweighing the momentum models' prediction of a 5% increase.""
+}",sell
+WBA,"Walgreens Boots Alliance, Inc.",momentum,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Walgreens Boots Alliance has just broken through a key technical resistance level on strong trading volume, signaling a continuation of its recent upward trend and suggesting enough positive momentum exists to drive the price higher by another 5%.
+2. The recent rally in Walgreens Boots Alliance has pushed the stock into a historically overbought condition, which for contrarian investors indicates that the positive sentiment is exhausted and the stock is poised for a 8% reversion to its mean value.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The stock has broken through a key technical resistance level on strong trading volume, indicating a continuation of its upward trend, which outweighs the contrarian indicator of being overbought.""
+}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Technical analysis indicates the stock has entered a sustained bearish channel, with algorithmic trading models signaling strong negative momentum likely to push the price down a further 5% in the near term.
+2. Following a prolonged sell-off, the stock's sentiment indicators have hit a three-year low, a classic contrarian buy signal that suggests pessimistic sellers are exhausted and a relief rally of 8% is imminent.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""Contrarian buy signal suggests a relief rally is imminent, outweighing the short-term negative momentum indicated by technical analysis.""
+}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. An internal review of the company's new cost-cutting initiatives, focused on supply chain logistics and store automation, has shown a potential for margin improvements far exceeding initial forecasts, creating a contrarian opportunity for a 8% price increase as this underappreciated efficiency is priced into the stock.
+2. Proprietary data tracking consumer foot traffic and basket size indicates a persistent decline in Q2, reinforcing the negative trend and suggesting a loss of another 5% in value as the stock continues its downward momentum towards its 52-week low.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The potential for margin improvements and an 8% price increase due to underappreciated efficiency from new cost-cutting initiatives outweighs the current negative trend.""}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Despite recent market optimism surrounding Walgreens Boots Alliance, Inc.'s new loyalty program, our contrarian analysis suggests its benefits are already priced in and early adoption rates are below expectations, prompting a forecast for a 8% price correction.
+2. Strong institutional buying has pushed Walgreens Boots Alliance, Inc. past a key technical resistance level, and our momentum models indicate this upward trend has enough strength to drive the stock higher by another 5% in the coming weeks.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Contrarian analysis suggests benefits of new loyalty program are already priced in with early adoption rates below expectations, forecasting an 8% price correction""}",sell
+WBA,"Walgreens Boots Alliance, Inc.",momentum,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Walgreens Boots Alliance has just broken through a key technical resistance level on strong trading volume, signaling a continuation of its recent upward trend and suggesting enough positive momentum exists to drive the price higher by another 5%.
+2. The recent rally in Walgreens Boots Alliance has pushed the stock into a historically overbought condition, which for contrarian investors indicates that the positive sentiment is exhausted and the stock is poised for a 10% reversion to its mean value.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has broken through a key technical resistance level on strong trading volume, indicating a continuation of its upward trend.""}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Technical analysis indicates the stock has entered a sustained bearish channel, with algorithmic trading models signaling strong negative momentum likely to push the price down a further 5% in the near term.
+2. Following a prolonged sell-off, the stock's sentiment indicators have hit a three-year low, a classic contrarian buy signal that suggests pessimistic sellers are exhausted and a relief rally of 10% is imminent.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""Contrarian buy signal suggests pessimistic sellers are exhausted and a relief rally is imminent, outweighing the bearish technical analysis"" 
+}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. An internal review of the company's new cost-cutting initiatives, focused on supply chain logistics and store automation, has shown a potential for margin improvements far exceeding initial forecasts, creating a contrarian opportunity for a 10% price increase as this underappreciated efficiency is priced into the stock.
+2. Proprietary data tracking consumer foot traffic and basket size indicates a persistent decline in Q2, reinforcing the negative trend and suggesting a loss of another 5% in value as the stock continues its downward momentum towards its 52-week low.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The potential for margin improvements and a contrarian opportunity for a 10% price increase due to underappreciated efficiency outweighs the negative trend, making it a buying opportunity.""}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Despite recent market optimism surrounding Walgreens Boots Alliance, Inc.'s new loyalty program, our contrarian analysis suggests its benefits are already priced in and early adoption rates are below expectations, prompting a forecast for a 10% price correction.
+2. Strong institutional buying has pushed Walgreens Boots Alliance, Inc. past a key technical resistance level, and our momentum models indicate this upward trend has enough strength to drive the stock higher by another 5% in the coming weeks.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Contrarian analysis suggests benefits of new loyalty program are already priced in with early adoption rates below expectations, forecasting a 10% price correction""}",sell
+WBA,"Walgreens Boots Alliance, Inc.",momentum,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Walgreens Boots Alliance has just broken through a key technical resistance level on strong trading volume, signaling a continuation of its recent upward trend and suggesting enough positive momentum exists to drive the price higher by another 5%.
+2. The recent rally in Walgreens Boots Alliance has pushed the stock into a historically overbought condition, which for contrarian investors indicates that the positive sentiment is exhausted and the stock is poised for a 15% reversion to its mean value.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock has broken through a key technical resistance level on strong trading volume, indicating a continuation of its upward trend and suggesting potential for further growth.""}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Technical analysis indicates the stock has entered a sustained bearish channel, with algorithmic trading models signaling strong negative momentum likely to push the price down a further 5% in the near term.
+2. Following a prolonged sell-off, the stock's sentiment indicators have hit a three-year low, a classic contrarian buy signal that suggests pessimistic sellers are exhausted and a relief rally of 15% is imminent.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""Contrarian buy signal suggests a relief rally is imminent, outweighing the short-term negative momentum indicated by technical analysis.""
+}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. An internal review of the company's new cost-cutting initiatives, focused on supply chain logistics and store automation, has shown a potential for margin improvements far exceeding initial forecasts, creating a contrarian opportunity for a 15% price increase as this underappreciated efficiency is priced into the stock.
+2. Proprietary data tracking consumer foot traffic and basket size indicates a persistent decline in Q2, reinforcing the negative trend and suggesting a loss of another 5% in value as the stock continues its downward momentum towards its 52-week low.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The potential for a 15% price increase due to underappreciated efficiency improvements from new cost-cutting initiatives outweighs the negative trend indicated by consumer foot traffic and basket size data.""}",buy
+WBA,"Walgreens Boots Alliance, Inc.",momentum,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [WBA]
+Stock Name: [Walgreens Boots Alliance, Inc.]
+--- Evidence ---
+1. Despite recent market optimism surrounding Walgreens Boots Alliance, Inc.'s new loyalty program, our contrarian analysis suggests its benefits are already priced in and early adoption rates are below expectations, prompting a forecast for a 15% price correction.
+2. Strong institutional buying has pushed Walgreens Boots Alliance, Inc. past a key technical resistance level, and our momentum models indicate this upward trend has enough strength to drive the stock higher by another 5% in the coming weeks.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Contrarian analysis suggests benefits of new loyalty program are already priced in with early adoption rates below expectations, forecasting a 15% price correction""}",sell
+IVZ,Invesco Ltd.,contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. Recent price action for IVZ has established a clear upward trend, with the stock consistently closing above its 20-day moving average, signaling strong positive momentum that is expected to drive the price up by an additional 6%.
+2. After a significant recent rally, investor sentiment for IVZ has reached a level of extreme optimism, a classic contrarian indicator that has historically preceded a near-term correction, suggesting an impending 5% drop in price.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The upward trend and expected 6% increase in price outweigh the potential for a near-term 5% correction, suggesting a buying opportunity.""}",buy
+IVZ,Invesco Ltd.,contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. IVZ has recently broken through key technical support levels, and with increasing trading volume on down days, the negative momentum is expected to drive the share price down a further 6% in the near term.
+2. The recent sell-off in IVZ appears to be an overreaction to sector-wide concerns, pushing its Relative Strength Index (RSI) into oversold territory, which presents a contrarian buying opportunity for a potential 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent sell-off has led to an oversold condition, presenting a contrarian buying opportunity for a potential 5% reversion to its mean valuation, which outweighs the near-term downside risk of 6%""}",buy
+IVZ,Invesco Ltd.,contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. We project a 5% price increase for IVZ as the market has overreacted to news of a minor ETF closure, creating a classic contrarian opportunity to buy into a fundamentally sound asset manager at a discount before sentiment corrects.
+2. IVZ shares have broken a key technical support level on high trading volume following revised lower fee guidance, signaling strong negative momentum that is expected to drive the stock down a further 6% in the near term.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market overreaction to a minor ETF closure creates a contrarian opportunity to buy into a fundamentally sound asset manager at a discount.""}",buy
+IVZ,Invesco Ltd.,contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. Despite recent bullish sentiment surrounding Invesco's new AI-driven fund platform, our channel checks indicate widespread adoption issues among key institutional clients, creating a contrarian opportunity as we expect the stock to fall 5% once these underwhelming initial metrics are reported.
+2. IVZ has demonstrated strong upward momentum by closing above its 50-day moving average for 15 consecutive sessions, and with institutional fund flows accelerating, technical analysis projects this trend will continue for a further 6% gain before hitting the next resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""Despite technical indicators suggesting a continued upward trend, evidence of widespread adoption issues among key institutional clients for Invesco's new AI-driven fund platform is likely to negatively impact the stock, leading to a predicted 5% fall.""
+}",sell
+IVZ,Invesco Ltd.,contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. Recent price action for IVZ has established a clear upward trend, with the stock consistently closing above its 20-day moving average, signaling strong positive momentum that is expected to drive the price up by an additional 8%.
+2. After a significant recent rally, investor sentiment for IVZ has reached a level of extreme optimism, a classic contrarian indicator that has historically preceded a near-term correction, suggesting an impending 5% drop in price.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock's upward trend and strong positive momentum are expected to drive the price up by an additional 8%, indicating a higher potential return compared to the anticipated 5% near-term correction.""}",buy
+IVZ,Invesco Ltd.,contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. IVZ has recently broken through key technical support levels, and with increasing trading volume on down days, the negative momentum is expected to drive the share price down a further 8% in the near term.
+2. The recent sell-off in IVZ appears to be an overreaction to sector-wide concerns, pushing its Relative Strength Index (RSI) into oversold territory, which presents a contrarian buying opportunity for a potential 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The stock has been oversold with RSI in oversold territory, presenting a contrarian buying opportunity for a potential 5% reversion to its mean valuation, outweighing the near-term downside risk of 8%."" 
+}",buy
+IVZ,Invesco Ltd.,contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. We project a 5% price increase for IVZ as the market has overreacted to news of a minor ETF closure, creating a classic contrarian opportunity to buy into a fundamentally sound asset manager at a discount before sentiment corrects.
+2. IVZ shares have broken a key technical support level on high trading volume following revised lower fee guidance, signaling strong negative momentum that is expected to drive the stock down a further 8% in the near term.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market overreaction to a minor ETF closure presents a contrarian opportunity to invest in a fundamentally sound asset manager at a discount.""}",buy
+IVZ,Invesco Ltd.,contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. Despite recent bullish sentiment surrounding Invesco's new AI-driven fund platform, our channel checks indicate widespread adoption issues among key institutional clients, creating a contrarian opportunity as we expect the stock to fall 5% once these underwhelming initial metrics are reported.
+2. IVZ has demonstrated strong upward momentum by closing above its 50-day moving average for 15 consecutive sessions, and with institutional fund flows accelerating, technical analysis projects this trend will continue for a further 8% gain before hitting the next resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""Despite technical indicators suggesting continued upward momentum, widespread adoption issues among key institutional clients for Invesco's new AI-driven fund platform are likely to negatively impact the stock's performance, expected to fall 5% once initial metrics are reported.""
+}",sell
+IVZ,Invesco Ltd.,contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. Recent price action for IVZ has established a clear upward trend, with the stock consistently closing above its 20-day moving average, signaling strong positive momentum that is expected to drive the price up by an additional 10%.
+2. After a significant recent rally, investor sentiment for IVZ has reached a level of extreme optimism, a classic contrarian indicator that has historically preceded a near-term correction, suggesting an impending 5% drop in price.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The stock's upward trend and strong positive momentum are expected to drive the price up by an additional 10%, making it a better option to buy despite the contrarian indicator suggesting a near-term correction.""}",buy
+IVZ,Invesco Ltd.,contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. IVZ has recently broken through key technical support levels, and with increasing trading volume on down days, the negative momentum is expected to drive the share price down a further 10% in the near term.
+2. The recent sell-off in IVZ appears to be an overreaction to sector-wide concerns, pushing its Relative Strength Index (RSI) into oversold territory, which presents a contrarian buying opportunity for a potential 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The recent sell-off has pushed IVZ into oversold territory, presenting a contrarian buying opportunity for a potential 5% reversion to its mean valuation, which outweighs the near-term downside risk of 10%""
+}",buy
+IVZ,Invesco Ltd.,contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. We project a 5% price increase for IVZ as the market has overreacted to news of a minor ETF closure, creating a classic contrarian opportunity to buy into a fundamentally sound asset manager at a discount before sentiment corrects.
+2. IVZ shares have broken a key technical support level on high trading volume following revised lower fee guidance, signaling strong negative momentum that is expected to drive the stock down a further 10% in the near term.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market overreaction to a minor ETF closure presents a contrarian opportunity to invest in a fundamentally sound asset manager at a discount.""}",buy
+IVZ,Invesco Ltd.,contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. Despite recent bullish sentiment surrounding Invesco's new AI-driven fund platform, our channel checks indicate widespread adoption issues among key institutional clients, creating a contrarian opportunity as we expect the stock to fall 5% once these underwhelming initial metrics are reported.
+2. IVZ has demonstrated strong upward momentum by closing above its 50-day moving average for 15 consecutive sessions, and with institutional fund flows accelerating, technical analysis projects this trend will continue for a further 10% gain before hitting the next resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Despite technical upward momentum, widespread adoption issues among key institutional clients for Invesco's new AI-driven fund platform are expected to negatively impact the stock, with a predicted 5% fall.""}",sell
+IVZ,Invesco Ltd.,contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. Recent price action for IVZ has established a clear upward trend, with the stock consistently closing above its 20-day moving average, signaling strong positive momentum that is expected to drive the price up by an additional 15%.
+2. After a significant recent rally, investor sentiment for IVZ has reached a level of extreme optimism, a classic contrarian indicator that has historically preceded a near-term correction, suggesting an impending 5% drop in price.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The stock's upward trend and strong positive momentum are expected to drive the price up by an additional 15%, indicating a higher potential return compared to the anticipated 5% near-term correction.""
+}",buy
+IVZ,Invesco Ltd.,contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. IVZ has recently broken through key technical support levels, and with increasing trading volume on down days, the negative momentum is expected to drive the share price down a further 15% in the near term.
+2. The recent sell-off in IVZ appears to be an overreaction to sector-wide concerns, pushing its Relative Strength Index (RSI) into oversold territory, which presents a contrarian buying opportunity for a potential 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ ""decision"": ""sell"", ""reason"": ""The stock has broken through key technical support levels with increasing trading volume on down days, indicating a strong negative momentum expected to drive the share price down a further 15% in the near term."" }",sell
+IVZ,Invesco Ltd.,contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. We project a 5% price increase for IVZ as the market has overreacted to news of a minor ETF closure, creating a classic contrarian opportunity to buy into a fundamentally sound asset manager at a discount before sentiment corrects.
+2. IVZ shares have broken a key technical support level on high trading volume following revised lower fee guidance, signaling strong negative momentum that is expected to drive the stock down a further 15% in the near term.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market overreaction to a minor ETF closure creates a contrarian opportunity to invest in a fundamentally sound asset manager at a discount.""}",buy
+IVZ,Invesco Ltd.,contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [IVZ]
+Stock Name: [Invesco Ltd.]
+--- Evidence ---
+1. Despite recent bullish sentiment surrounding Invesco's new AI-driven fund platform, our channel checks indicate widespread adoption issues among key institutional clients, creating a contrarian opportunity as we expect the stock to fall 5% once these underwhelming initial metrics are reported.
+2. IVZ has demonstrated strong upward momentum by closing above its 50-day moving average for 15 consecutive sessions, and with institutional fund flows accelerating, technical analysis projects this trend will continue for a further 15% gain before hitting the next resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""Despite technical indicators suggesting upward momentum, evidence of widespread adoption issues among key institutional clients for Invesco's new AI-driven fund platform is expected to negatively impact the stock, leading to a predicted 5% fall.""
+}",sell
+CLX,The Clorox Company,contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Recent institutional buying and positive technical indicators suggest CLX's current uptrend has strong support, creating momentum that is projected to drive the stock up by another 6% in the coming weeks.
+2. Following its recent rally, CLX is now significantly overbought, and our proprietary sentiment indicator flags extreme optimism, creating a contrarian opportunity to sell before an expected 5% price correction.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent institutional buying and positive technical indicators suggest a strong uptrend with momentum expected to drive the stock up by another 6%, outweighing the contrarian signal of being overbought.""}",buy
+CLX,The Clorox Company,contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Technical analysis shows CLX has recently broken below its key 200-day moving average, signaling a strong bearish trend that is likely to attract further selling pressure and drive the price down another 6%.
+2. The recent market pessimism surrounding CLX is an overreaction to minor competitive pressures, presenting a classic contrarian opportunity for a 5% rebound as the stock's oversold condition corrects toward its fundamental value.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent market pessimism is an overreaction to minor competitive pressures, presenting a contrarian opportunity for a rebound""}",buy
+CLX,The Clorox Company,contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. We issue a contrarian Buy rating as the market has overreacted to recent cost pressures from raw material inflation, creating an attractive entry point for a projected 5% rebound as the company's long-term brand strength and pricing power are realized.
+2. The stock's recent break below a key technical support level has initiated a strong downward trend, and our momentum models indicate this negative sentiment will likely drive the price down another 6% before finding a new floor.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market has overreacted to recent cost pressures, creating an attractive entry point due to the company's long-term brand strength and pricing power.""}",buy
+CLX,The Clorox Company,contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Despite recent market enthusiasm for CLX's international expansion, our proprietary data indicates significant distribution channel conflicts in Europe, which we believe will trigger a guidance downgrade and a contrarian-driven 5% drop in the stock price.
+2. CLX has consistently outperformed its sector index for three consecutive quarters, establishing a powerful upward trend that momentum models suggest will continue, projecting a further 6% gain as new institutional buyers are attracted to the stock's relative strength.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""Despite CLX's recent outperformance, proprietary data indicating distribution channel conflicts in Europe and a potential guidance downgrade suggest a contrarian-driven 5% drop in stock price, outweighing the momentum-driven 6% gain projection.""
+}",sell
+CLX,The Clorox Company,contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Recent institutional buying and positive technical indicators suggest CLX's current uptrend has strong support, creating momentum that is projected to drive the stock up by another 8% in the coming weeks.
+2. Following its recent rally, CLX is now significantly overbought, and our proprietary sentiment indicator flags extreme optimism, creating a contrarian opportunity to sell before an expected 5% price correction.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent institutional buying and positive technical indicators suggest a strong uptrend with momentum expected to drive the stock up by another 8%, outweighing the risk of a 5% correction""}",buy
+CLX,The Clorox Company,contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Technical analysis shows CLX has recently broken below its key 200-day moving average, signaling a strong bearish trend that is likely to attract further selling pressure and drive the price down another 8%.
+2. The recent market pessimism surrounding CLX is an overreaction to minor competitive pressures, presenting a classic contrarian opportunity for a 5% rebound as the stock's oversold condition corrects toward its fundamental value.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The recent market pessimism is an overreaction to minor competitive pressures, presenting a contrarian opportunity for a rebound.""
+}",buy
+CLX,The Clorox Company,contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. We issue a contrarian Buy rating as the market has overreacted to recent cost pressures from raw material inflation, creating an attractive entry point for a projected 5% rebound as the company's long-term brand strength and pricing power are realized.
+2. The stock's recent break below a key technical support level has initiated a strong downward trend, and our momentum models indicate this negative sentiment will likely drive the price down another 8% before finding a new floor.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market has overreacted to recent cost pressures, creating an attractive entry point due to the company's long-term brand strength and pricing power.""}",buy
+CLX,The Clorox Company,contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Despite recent market enthusiasm for CLX's international expansion, our proprietary data indicates significant distribution channel conflicts in Europe, which we believe will trigger a guidance downgrade and a contrarian-driven 5% drop in the stock price.
+2. CLX has consistently outperformed its sector index for three consecutive quarters, establishing a powerful upward trend that momentum models suggest will continue, projecting a further 8% gain as new institutional buyers are attracted to the stock's relative strength.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Evidence suggests potential for a 5% drop due to distribution channel conflicts in Europe and a likely guidance downgrade, outweighing the projected 8% gain from momentum models""}",sell
+CLX,The Clorox Company,contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Recent institutional buying and positive technical indicators suggest CLX's current uptrend has strong support, creating momentum that is projected to drive the stock up by another 10% in the coming weeks.
+2. Following its recent rally, CLX is now significantly overbought, and our proprietary sentiment indicator flags extreme optimism, creating a contrarian opportunity to sell before an expected 5% price correction.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent institutional buying and positive technical indicators suggest a strong uptrend with momentum expected to drive the stock up by another 10%, outweighing the risk of a 5% correction""}",buy
+CLX,The Clorox Company,contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Technical analysis shows CLX has recently broken below its key 200-day moving average, signaling a strong bearish trend that is likely to attract further selling pressure and drive the price down another 10%.
+2. The recent market pessimism surrounding CLX is an overreaction to minor competitive pressures, presenting a classic contrarian opportunity for a 5% rebound as the stock's oversold condition corrects toward its fundamental value.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""The stock has broken below its key 200-day moving average, indicating a strong bearish trend likely to drive the price down another 10%, which outweighs the potential for a minor 5% rebound due to oversold conditions."" 
+}",sell
+CLX,The Clorox Company,contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. We issue a contrarian Buy rating as the market has overreacted to recent cost pressures from raw material inflation, creating an attractive entry point for a projected 5% rebound as the company's long-term brand strength and pricing power are realized.
+2. The stock's recent break below a key technical support level has initiated a strong downward trend, and our momentum models indicate this negative sentiment will likely drive the price down another 10% before finding a new floor.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The market overreaction to cost pressures and the company's long-term brand strength and pricing power create an attractive entry point.""
+}",buy
+CLX,The Clorox Company,contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Despite recent market enthusiasm for CLX's international expansion, our proprietary data indicates significant distribution channel conflicts in Europe, which we believe will trigger a guidance downgrade and a contrarian-driven 5% drop in the stock price.
+2. CLX has consistently outperformed its sector index for three consecutive quarters, establishing a powerful upward trend that momentum models suggest will continue, projecting a further 10% gain as new institutional buyers are attracted to the stock's relative strength.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""Evidence suggests potential for a 5% drop in stock price due to distribution channel conflicts in Europe and a likely guidance downgrade, outweighing the potential for a 10% gain from momentum models."" 
+}",sell
+CLX,The Clorox Company,contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Recent institutional buying and positive technical indicators suggest CLX's current uptrend has strong support, creating momentum that is projected to drive the stock up by another 15% in the coming weeks.
+2. Following its recent rally, CLX is now significantly overbought, and our proprietary sentiment indicator flags extreme optimism, creating a contrarian opportunity to sell before an expected 5% price correction.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent institutional buying and positive technical indicators suggest a strong uptrend with momentum expected to drive the stock up by another 15%, outweighing the potential for a 5% correction""}",buy
+CLX,The Clorox Company,contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Technical analysis shows CLX has recently broken below its key 200-day moving average, signaling a strong bearish trend that is likely to attract further selling pressure and drive the price down another 15%.
+2. The recent market pessimism surrounding CLX is an overreaction to minor competitive pressures, presenting a classic contrarian opportunity for a 5% rebound as the stock's oversold condition corrects toward its fundamental value.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""The recent break below the 200-day moving average indicates a strong bearish trend, suggesting further downside potential of another 15%, which outweighs the potential for a minor 5% rebound."" 
+}",sell
+CLX,The Clorox Company,contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. We issue a contrarian Buy rating as the market has overreacted to recent cost pressures from raw material inflation, creating an attractive entry point for a projected 5% rebound as the company's long-term brand strength and pricing power are realized.
+2. The stock's recent break below a key technical support level has initiated a strong downward trend, and our momentum models indicate this negative sentiment will likely drive the price down another 15% before finding a new floor.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market has overreacted to recent cost pressures, creating an attractive entry point due to the company's long-term brand strength and pricing power.""}",buy
+CLX,The Clorox Company,contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [CLX]
+Stock Name: [The Clorox Company]
+--- Evidence ---
+1. Despite recent market enthusiasm for CLX's international expansion, our proprietary data indicates significant distribution channel conflicts in Europe, which we believe will trigger a guidance downgrade and a contrarian-driven 5% drop in the stock price.
+2. CLX has consistently outperformed its sector index for three consecutive quarters, establishing a powerful upward trend that momentum models suggest will continue, projecting a further 15% gain as new institutional buyers are attracted to the stock's relative strength.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""sell"", 
+""reason"": ""Evidence of distribution channel conflicts in Europe and a potential guidance downgrade outweighs the momentum-driven projection of a further 15% gain, suggesting a higher likelihood of a 5% drop."" 
+}",sell
+DLR,"Digital Realty Trust, Inc.",contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. DLR has just broken through its 200-day moving average on high volume, a key technical indicator suggesting its recent rally has the momentum to continue for an expected 6% gain in the coming weeks.
+2. After a sustained run-up, proprietary sentiment indicators show DLR is now in ""extreme euphoria"" territory, a reliable contrarian signal that the stock is overbought and poised for a 5% reversion to its mean.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""The stock is in 'extreme euphoria' territory, a contrarian signal indicating it's overbought and likely to revert to its mean, outweighing the bullish technical indicator of breaking through the 200-day moving average.""}",sell
+DLR,"Digital Realty Trust, Inc.",contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Recent price action shows DLR has decisively broken below its key 50-day moving average, a significant bearish signal for momentum traders, which is expected to trigger further automated selling and drive the stock down by another 6%.
+2. The recent dip in DLR's stock is a market overreaction to sector-wide jitters, creating a prime contrarian entry point as its underlying fundamentals in hyperscale leasing remain robust, suggesting a 5% rebound is likely once the short-term noise subsides.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent dip in DLR's stock is a market overreaction to sector-wide jitters, and its underlying fundamentals in hyperscale leasing remain robust, suggesting a 5% rebound is likely once the short-term noise subsides.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Despite widespread concern over new international data sovereignty laws, our internal analysis indicates the market has over-penalized the stock, creating a contrarian entry point for an expected 5% price recovery as DLR's diversified portfolio demonstrates resilience.
+2. After a strong upward trend driven by AI infrastructure speculation, the stock's momentum appears overextended with key technical indicators reaching peak levels, signaling an imminent reversal and a 6% pullback as early investors begin to take profits.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market has over-penalized the stock due to concerns over international data sovereignty laws, but DLR's diversified portfolio shows resilience, indicating a potential 5% price recovery.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Despite recent positive sentiment, our analysis suggests the market is ignoring the potential for oversupply in key European markets, creating a contrarian opportunity as we expect a 5% price decline when DLR's upcoming quarterly guidance reflects this cooling demand.
+2. DLR has consistently outperformed its sector index for the past month on strong institutional buying, and this positive momentum is expected to continue, fueling a further 6% price increase as it breaks through its next technical resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Potential for 5% price decline due to oversupply in key European markets""}",sell
+DLR,"Digital Realty Trust, Inc.",contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. DLR has just broken through its 200-day moving average on high volume, a key technical indicator suggesting its recent rally has the momentum to continue for an expected 8% gain in the coming weeks.
+2. After a sustained run-up, proprietary sentiment indicators show DLR is now in ""extreme euphoria"" territory, a reliable contrarian signal that the stock is overbought and poised for a 5% reversion to its mean.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""The stock is in 'extreme euphoria' territory, a contrarian signal indicating it's overbought and likely to revert to its mean, outweighing the potential for an 8% gain suggested by the technical indicator.""}",sell
+DLR,"Digital Realty Trust, Inc.",contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Recent price action shows DLR has decisively broken below its key 50-day moving average, a significant bearish signal for momentum traders, which is expected to trigger further automated selling and drive the stock down by another 8%.
+2. The recent dip in DLR's stock is a market overreaction to sector-wide jitters, creating a prime contrarian entry point as its underlying fundamentals in hyperscale leasing remain robust, suggesting a 5% rebound is likely once the short-term noise subsides.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent dip in DLR's stock is a market overreaction to sector-wide jitters, and its underlying fundamentals in hyperscale leasing remain robust, suggesting a 5% rebound is likely once the short-term noise subsides.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Despite widespread concern over new international data sovereignty laws, our internal analysis indicates the market has over-penalized the stock, creating a contrarian entry point for an expected 5% price recovery as DLR's diversified portfolio demonstrates resilience.
+2. After a strong upward trend driven by AI infrastructure speculation, the stock's momentum appears overextended with key technical indicators reaching peak levels, signaling an imminent reversal and a 8% pullback as early investors begin to take profits.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market has over-penalized the stock due to concerns over international data sovereignty laws, but DLR's diversified portfolio shows resilience, indicating a potential 5% price recovery.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Despite recent positive sentiment, our analysis suggests the market is ignoring the potential for oversupply in key European markets, creating a contrarian opportunity as we expect a 5% price decline when DLR's upcoming quarterly guidance reflects this cooling demand.
+2. DLR has consistently outperformed its sector index for the past month on strong institutional buying, and this positive momentum is expected to continue, fueling a further 8% price increase as it breaks through its next technical resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Potential for 5% price decline due to oversupply in key European markets""}",sell
+DLR,"Digital Realty Trust, Inc.",contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. DLR has just broken through its 200-day moving average on high volume, a key technical indicator suggesting its recent rally has the momentum to continue for an expected 10% gain in the coming weeks.
+2. After a sustained run-up, proprietary sentiment indicators show DLR is now in ""extreme euphoria"" territory, a reliable contrarian signal that the stock is overbought and poised for a 5% reversion to its mean.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent break through the 200-day moving average on high volume suggests strong momentum and potential for a 10% gain, outweighing the contrarian signal of extreme euphoria which typically leads to a smaller 5% reversion.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Recent price action shows DLR has decisively broken below its key 50-day moving average, a significant bearish signal for momentum traders, which is expected to trigger further automated selling and drive the stock down by another 10%.
+2. The recent dip in DLR's stock is a market overreaction to sector-wide jitters, creating a prime contrarian entry point as its underlying fundamentals in hyperscale leasing remain robust, suggesting a 5% rebound is likely once the short-term noise subsides.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent dip in DLR's stock is a market overreaction to sector-wide jitters, and its underlying fundamentals in hyperscale leasing remain robust, suggesting a 5% rebound is likely once the short-term noise subsides.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Despite widespread concern over new international data sovereignty laws, our internal analysis indicates the market has over-penalized the stock, creating a contrarian entry point for an expected 5% price recovery as DLR's diversified portfolio demonstrates resilience.
+2. After a strong upward trend driven by AI infrastructure speculation, the stock's momentum appears overextended with key technical indicators reaching peak levels, signaling an imminent reversal and a 10% pullback as early investors begin to take profits.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market has over-penalized the stock due to concerns over international data sovereignty laws, but DLR's diversified portfolio shows resilience, indicating a potential 5% price recovery.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Despite recent positive sentiment, our analysis suggests the market is ignoring the potential for oversupply in key European markets, creating a contrarian opportunity as we expect a 5% price decline when DLR's upcoming quarterly guidance reflects this cooling demand.
+2. DLR has consistently outperformed its sector index for the past month on strong institutional buying, and this positive momentum is expected to continue, fueling a further 10% price increase as it breaks through its next technical resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Potential for oversupply in key European markets and expected 5% price decline""}",sell
+DLR,"Digital Realty Trust, Inc.",contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. DLR has just broken through its 200-day moving average on high volume, a key technical indicator suggesting its recent rally has the momentum to continue for an expected 15% gain in the coming weeks.
+2. After a sustained run-up, proprietary sentiment indicators show DLR is now in ""extreme euphoria"" territory, a reliable contrarian signal that the stock is overbought and poised for a 5% reversion to its mean.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent break through the 200-day moving average on high volume suggests strong momentum and potential for a 15% gain, outweighing the contrarian signal of extreme euphoria which implies a smaller 5% reversion.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Recent price action shows DLR has decisively broken below its key 50-day moving average, a significant bearish signal for momentum traders, which is expected to trigger further automated selling and drive the stock down by another 15%.
+2. The recent dip in DLR's stock is a market overreaction to sector-wide jitters, creating a prime contrarian entry point as its underlying fundamentals in hyperscale leasing remain robust, suggesting a 5% rebound is likely once the short-term noise subsides.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent dip in DLR's stock is a market overreaction to sector-wide jitters, and its underlying fundamentals in hyperscale leasing remain robust, suggesting a 5% rebound is likely once the short-term noise subsides.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Despite widespread concern over new international data sovereignty laws, our internal analysis indicates the market has over-penalized the stock, creating a contrarian entry point for an expected 5% price recovery as DLR's diversified portfolio demonstrates resilience.
+2. After a strong upward trend driven by AI infrastructure speculation, the stock's momentum appears overextended with key technical indicators reaching peak levels, signaling an imminent reversal and a 15% pullback as early investors begin to take profits.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market has over-penalized the stock due to concerns over international data sovereignty laws, but DLR's diversified portfolio shows resilience, indicating a potential 5% price recovery.""}",buy
+DLR,"Digital Realty Trust, Inc.",contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [DLR]
+Stock Name: [Digital Realty Trust, Inc.]
+--- Evidence ---
+1. Despite recent positive sentiment, our analysis suggests the market is ignoring the potential for oversupply in key European markets, creating a contrarian opportunity as we expect a 5% price decline when DLR's upcoming quarterly guidance reflects this cooling demand.
+2. DLR has consistently outperformed its sector index for the past month on strong institutional buying, and this positive momentum is expected to continue, fueling a further 15% price increase as it breaks through its next technical resistance level.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""Potential for 5% price decline due to oversupply in key European markets""}",sell
+REG,Regency Centers Corporation,contrarian,momentum,contrarian,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. Regency Centers has demonstrated strong upward momentum, breaking through a key technical resistance level last week, and our channel analysis projects this trend will continue towards its next resistance point, leading to a 6% price increase.
+2. The recent rally in Regency Centers has pushed our proprietary sentiment gauge into ""extreme greed"" territory, a historically reliable contrarian signal that the stock is overbought and poised for a 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""sell"", ""reason"": ""The stock is showing extreme greed sentiment and is likely overbought, indicating a high risk of a 5% price reversion, outweighing the potential 6% increase based on technical analysis""}",sell
+REG,Regency Centers Corporation,contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. Regency Centers has breached its key 50-day moving average amid concerns over softening retail lease renewals, establishing a downward technical trend that is expected to continue for a further 6% price decline.
+2. The recent sell-off in Regency Centers is an overreaction to sector-wide concerns, pushing its valuation to a discount; we anticipate a contrarian-led rebound of 5% as investors recognize the stability of its grocery-anchored portfolio.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent sell-off has pushed the stock to a discount, and its grocery-anchored portfolio offers stability that is likely to trigger a contrarian-led rebound.""}",buy
+REG,Regency Centers Corporation,contrarian,contrarian,momentum,1,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. We issue a Buy rating as the market has overreacted to news of a major tenant's bankruptcy, ignoring Regency's high-quality and diversified portfolio; we project a contrarian-led 5% price rebound as investors recognize the isolated nature of this event.
+2. We issue a Sell rating as the stock has demonstrated significant negative momentum by breaking a key technical support level after recent earnings, and we expect this downward trend to continue for at least another 6% as more investors capitulate.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market overreaction to a single tenant's bankruptcy, coupled with a high-quality and diversified portfolio, presents a contrarian opportunity for a 5% price rebound.""}",buy
+REG,Regency Centers Corporation,contrarian,momentum,contrarian,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. Regency Centers has demonstrated strong upward momentum, breaking through a key technical resistance level last week, and our channel analysis projects this trend will continue towards its next resistance point, leading to a 8% price increase.
+2. The recent rally in Regency Centers has pushed our proprietary sentiment gauge into ""extreme greed"" territory, a historically reliable contrarian signal that the stock is overbought and poised for a 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The technical analysis indicating an 8% price increase outweighs the contrarian signal suggesting a 5% reversion, as upward momentum and breaking resistance levels typically have a stronger immediate impact on stock prices than sentiment gauges.""}",buy
+REG,Regency Centers Corporation,contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. Regency Centers has breached its key 50-day moving average amid concerns over softening retail lease renewals, establishing a downward technical trend that is expected to continue for a further 8% price decline.
+2. The recent sell-off in Regency Centers is an overreaction to sector-wide concerns, pushing its valuation to a discount; we anticipate a contrarian-led rebound of 5% as investors recognize the stability of its grocery-anchored portfolio.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent sell-off has pushed the stock to a discount, and despite short-term technical concerns, the stability of its grocery-anchored portfolio is likely to drive a contrarian-led rebound.""}",buy
+REG,Regency Centers Corporation,contrarian,contrarian,momentum,3,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. We issue a Buy rating as the market has overreacted to news of a major tenant's bankruptcy, ignoring Regency's high-quality and diversified portfolio; we project a contrarian-led 5% price rebound as investors recognize the isolated nature of this event.
+2. We issue a Sell rating as the stock has demonstrated significant negative momentum by breaking a key technical support level after recent earnings, and we expect this downward trend to continue for at least another 8% as more investors capitulate.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market overreaction to a single tenant's bankruptcy is expected to reverse, given Regency's high-quality and diversified portfolio, leading to a projected 5% price rebound.""}",buy
+REG,Regency Centers Corporation,contrarian,momentum,contrarian,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. Regency Centers has demonstrated strong upward momentum, breaking through a key technical resistance level last week, and our channel analysis projects this trend will continue towards its next resistance point, leading to a 10% price increase.
+2. The recent rally in Regency Centers has pushed our proprietary sentiment gauge into ""extreme greed"" territory, a historically reliable contrarian signal that the stock is overbought and poised for a 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The technical analysis indicating a 10% price increase due to upward momentum outweighs the contrarian signal suggesting a 5% reversion, as the former presents a more significant potential upside.""}",buy
+REG,Regency Centers Corporation,contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. Regency Centers has breached its key 50-day moving average amid concerns over softening retail lease renewals, establishing a downward technical trend that is expected to continue for a further 10% price decline.
+2. The recent sell-off in Regency Centers is an overreaction to sector-wide concerns, pushing its valuation to a discount; we anticipate a contrarian-led rebound of 5% as investors recognize the stability of its grocery-anchored portfolio.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent sell-off has pushed the stock to a discount, and despite short-term technical concerns, the stability of its grocery-anchored portfolio is expected to drive a contrarian-led rebound.""}",buy
+REG,Regency Centers Corporation,contrarian,contrarian,momentum,5,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. We issue a Buy rating as the market has overreacted to news of a major tenant's bankruptcy, ignoring Regency's high-quality and diversified portfolio; we project a contrarian-led 5% price rebound as investors recognize the isolated nature of this event.
+2. We issue a Sell rating as the stock has demonstrated significant negative momentum by breaking a key technical support level after recent earnings, and we expect this downward trend to continue for at least another 10% as more investors capitulate.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market overreaction to a single tenant's bankruptcy is expected to rebound as investors recognize the isolated nature of the event and the high-quality portfolio of Regency Centers Corporation.""}",buy
+REG,Regency Centers Corporation,contrarian,momentum,contrarian,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. Regency Centers has demonstrated strong upward momentum, breaking through a key technical resistance level last week, and our channel analysis projects this trend will continue towards its next resistance point, leading to a 15% price increase.
+2. The recent rally in Regency Centers has pushed our proprietary sentiment gauge into ""extreme greed"" territory, a historically reliable contrarian signal that the stock is overbought and poised for a 5% reversion to its mean valuation.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{ 
+""decision"": ""buy"", 
+""reason"": ""The technical analysis indicating a 15% price increase due to upward momentum outweighs the contrarian signal of a 5% reversion, suggesting a stronger potential for growth.""
+}",buy
+REG,Regency Centers Corporation,contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. Regency Centers has breached its key 50-day moving average amid concerns over softening retail lease renewals, establishing a downward technical trend that is expected to continue for a further 15% price decline.
+2. The recent sell-off in Regency Centers is an overreaction to sector-wide concerns, pushing its valuation to a discount; we anticipate a contrarian-led rebound of 5% as investors recognize the stability of its grocery-anchored portfolio.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The recent sell-off has pushed the stock to a discount, and despite short-term technical concerns, the stability of its grocery-anchored portfolio is likely to drive a contrarian-led rebound.""}",buy
+REG,Regency Centers Corporation,contrarian,contrarian,momentum,10,"Refer to the evidence below to make a final investment decision for the given stock.
+Stock Ticker: [REG]
+Stock Name: [Regency Centers Corporation]
+--- Evidence ---
+1. We issue a Buy rating as the market has overreacted to news of a major tenant's bankruptcy, ignoring Regency's high-quality and diversified portfolio; we project a contrarian-led 5% price rebound as investors recognize the isolated nature of this event.
+2. We issue a Sell rating as the stock has demonstrated significant negative momentum by breaking a key technical support level after recent earnings, and we expect this downward trend to continue for at least another 15% as more investors capitulate.
+---
+Your final response must be a single, valid JSON object. The JSON object must contain the following two keys:
+""decision"": [sell | buy]
+""reason"": A brief justification for your decision
+Do not include ""hold"" as an option. You must choose one side. Your response should start with { and end with }. Do not include any other text.","{""decision"": ""buy"", ""reason"": ""The market overreaction to a single tenant's bankruptcy is expected to rebound as investors recognize the isolated nature of the event and the high-quality portfolio of Regency Centers Corporation.""}",buy

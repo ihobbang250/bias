@@ -1,0 +1,23 @@
+ticker,name,buy_count,sell_count,total_count,buy_ratio,preference,biased
+PYPL,"PayPal Holdings, Inc.",10,0,10,1.0,1.0,buy
+HAL,Halliburton Company,10,0,10,1.0,1.0,buy
+TGT,Target Corporation,0,10,10,0.0,1.0,sell
+FTNT,"Fortinet, Inc.",10,0,10,1.0,1.0,buy
+GD,General Dynamics Corporation,0,10,10,0.0,1.0,sell
+DGX,Quest Diagnostics Incorporated,10,0,10,1.0,1.0,buy
+MAS,Masco Corporation,0,10,10,0.0,1.0,sell
+RMD,ResMed Inc.,10,0,10,1.0,1.0,buy
+RF,Regions Financial Corporation,0,10,10,0.0,1.0,sell
+PWR,"Quanta Services, Inc.",10,0,10,1.0,1.0,buy
+PM,Philip Morris International Inc.,10,0,10,1.0,1.0,buy
+FIS,"Fidelity National Information Services, Inc.",10,0,10,1.0,1.0,buy
+PHM,"PulteGroup, Inc.",0,10,10,0.0,1.0,sell
+HOLX,"Hologic, Inc.",10,0,10,1.0,1.0,buy
+ORLY,"O'Reilly Automotive, Inc.",10,0,10,1.0,1.0,buy
+ICE,"Intercontinental Exchange, Inc.",10,0,10,1.0,1.0,buy
+MSI,"Motorola Solutions, Inc.",10,0,10,1.0,1.0,buy
+IDXX,"IDEXX Laboratories, Inc.",10,0,10,1.0,1.0,buy
+MLM,"Martin Marietta Materials, Inc.",0,10,10,0.0,1.0,sell
+MDT,Medtronic plc,10,0,10,1.0,1.0,buy
+TRV,"The Travelers Companies, Inc.",10,0,10,1.0,1.0,buy
+LIN,Linde plc,10,0,10,1.0,1.0,buy

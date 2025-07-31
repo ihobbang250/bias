@@ -1,0 +1,23 @@
+ticker,name,buy_count,sell_count,total_count,buy_ratio,preference,biased
+IR,Ingersoll Rand Inc.,10,0,10,1.0,1.0,buy
+PYPL,"PayPal Holdings, Inc.",10,0,10,1.0,1.0,buy
+HON,Honeywell International Inc.,10,0,10,1.0,1.0,buy
+HOLX,"Hologic, Inc.",10,0,10,1.0,1.0,buy
+HLT,Hilton Worldwide Holdings Inc.,10,0,10,1.0,1.0,buy
+HII,"Huntington Ingalls Industries, Inc.",10,0,10,1.0,1.0,buy
+HIG,"The Hartford Financial Services Group, Inc.",10,0,10,1.0,1.0,buy
+HES,Hess Corporation,10,0,10,1.0,1.0,buy
+QCOM,QUALCOMM Incorporated,10,0,10,1.0,1.0,buy
+GOOGL,Alphabet Inc.,10,0,10,1.0,1.0,buy
+REG,Regency Centers Corporation,10,0,10,1.0,1.0,buy
+REGN,"Regeneron Pharmaceuticals, Inc.",10,0,10,1.0,1.0,buy
+HAL,Halliburton Company,10,0,10,1.0,1.0,buy
+GWW,"W.W. Grainger, Inc.",10,0,10,1.0,1.0,buy
+GS,"The Goldman Sachs Group, Inc.",10,0,10,1.0,1.0,buy
+GPN,Global Payments Inc.,10,0,10,1.0,1.0,buy
+HPE,Hewlett Packard Enterprise Company,10,0,10,1.0,1.0,buy
+PWR,"Quanta Services, Inc.",10,0,10,1.0,1.0,buy
+HRL,Hormel Foods Corporation,10,0,10,1.0,1.0,buy
+HSIC,"Henry Schein, Inc.",10,0,10,1.0,1.0,buy
+PSX,Phillips 66,10,0,10,1.0,1.0,buy
+HSY,The Hershey Company,10,0,10,1.0,1.0,buy

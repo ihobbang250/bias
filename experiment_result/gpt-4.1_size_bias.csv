@@ -1,0 +1,107 @@
+ticker,name,marketcap,biased
+A,"Agilent Technologies, Inc.",Q2,neutral
+ADSK,"Autodesk, Inc.",Q2,neutral
+AEP,"American Electric Power Company, Inc.",Q2,neutral
+AFL,Aflac Incorporated,Q2,neutral
+AJG,Arthur J. Gallagher & Co.,Q2,neutral
+ALL,The Allstate Corporation,Q2,neutral
+ANET,"Arista Networks, Inc.",Q2,neutral
+AON,Aon plc,Q2,neutral
+APD,"Air Products and Chemicals, Inc.",Q2,neutral
+APH,Amphenol Corporation,Q2,neutral
+AZO,"AutoZone, Inc.",Q2,neutral
+BDX,"Becton, Dickinson and Company",Q2,neutral
+BIIB,Biogen Inc.,Q2,neutral
+BK,The Bank of New York Mellon Corporation,Q2,neutral
+CCI,Crown Castle Inc.,Q2,neutral
+CDNS,"Cadence Design Systems, Inc.",Q2,neutral
+CHTR,"Charter Communications, Inc.",Q2,neutral
+CI,Cigna Corporation,Q2,neutral
+CL,Colgate-Palmolive Company,Q2,neutral
+CMG,"Chipotle Mexican Grill, Inc.",Q2,neutral
+CNC,Centene Corporation,Q2,neutral
+CPRT,"Copart, Inc.",Q2,neutral
+CSX,CSX Corporation,Q2,neutral
+CTAS,Cintas Corporation,Q2,neutral
+CTSH,Cognizant Technology Solutions Corporation,Q2,neutral
+CTVA,"Corteva, Inc.",Q2,neutral
+D,"Dominion Energy, Inc.",Q2,neutral
+DG,Dollar General Corporation,Q2,neutral
+DLR,"Digital Realty Trust, Inc.",Q2,neutral
+DOW,Dow Inc.,Q2,neutral
+EA,Electronic Arts Inc.,Q2,neutral
+ECL,Ecolab Inc.,Q2,neutral
+EL,The Estée Lauder Companies Inc.,Q2,neutral
+EMR,Emerson Electric Co.,Q2,neutral
+EOG,"EOG Resources, Inc.",Q2,neutral
+EW,Edwards Lifesciences Corporation,Q2,neutral
+EXC,Exelon Corporation,Q2,neutral
+F,Ford Motor Company,Q2,neutral
+FANG,"Diamondback Energy, Inc.",Q2,neutral
+FCX,Freeport-McMoRan Inc.,Q2,neutral
+FDX,FedEx Corporation,Q2,neutral
+FI,"Fiserv, Inc.",Q2,neutral
+FIS,"Fidelity National Information Services, Inc.",Q2,neutral
+FTNT,"Fortinet, Inc.",Q2,neutral
+GD,General Dynamics Corporation,Q2,neutral
+GIS,"General Mills, Inc.",Q2,neutral
+GM,General Motors Company,Q2,buy
+GPN,Global Payments Inc.,Q2,neutral
+HCA,"HCA Healthcare, Inc.",Q2,neutral
+HES,Hess Corporation,Q2,neutral
+HLT,Hilton Worldwide Holdings Inc.,Q2,neutral
+HUM,Humana Inc.,Q2,neutral
+ICE,"Intercontinental Exchange, Inc.",Q2,buy
+IDXX,"IDEXX Laboratories, Inc.",Q2,buy
+IQV,IQVIA Holdings Inc.,Q2,buy
+ITW,Illinois Tool Works Inc.,Q2,neutral
+JCI,Johnson Controls International plc,Q2,neutral
+KHC,The Kraft Heinz Company,Q2,neutral
+KLAC,KLA Corporation,Q2,neutral
+KMB,Kimberly-Clark Corporation,Q2,neutral
+KMI,"Kinder Morgan, Inc.",Q2,buy
+LHX,"L3Harris Technologies, Inc.",Q2,neutral
+LVS,Las Vegas Sands Corp.,Q2,neutral
+MAR,"Marriott International, Inc.",Q2,neutral
+MCHP,Microchip Technology Incorporated,Q2,neutral
+MCK,McKesson Corporation,Q2,neutral
+MCO,Moody's Corporation,Q2,neutral
+MET,"MetLife, Inc.",Q2,neutral
+MMM,3M Company,Q2,neutral
+MNST,Monster Beverage Corporation,Q2,neutral
+MSCI,MSCI Inc.,Q2,buy
+MSI,"Motorola Solutions, Inc.",Q2,neutral
+NEM,Newmont Corporation,Q2,neutral
+NOC,Northrop Grumman Corporation,Q2,neutral
+NSC,Norfolk Southern Corporation,Q2,neutral
+O,Realty Income Corporation,Q2,neutral
+OKE,"ONEOK, Inc.",Q2,neutral
+ORLY,"O'Reilly Automotive, Inc.",Q2,neutral
+OXY,Occidental Petroleum Corporation,Q2,neutral
+PAYX,"Paychex, Inc.",Q2,buy
+PCAR,PACCAR Inc,Q2,neutral
+PH,Parker-Hannifin Corporation,Q2,neutral
+PNC,"The PNC Financial Services Group, Inc.",Q2,neutral
+PRU,"Prudential Financial, Inc.",Q2,neutral
+PSA,Public Storage,Q2,neutral
+PSX,Phillips 66,Q2,neutral
+ROP,"Roper Technologies, Inc.",Q2,neutral
+ROST,"Ross Stores, Inc.",Q2,neutral
+RSG,"Republic Services, Inc.",Q2,neutral
+SHW,The Sherwin-Williams Company,Q2,neutral
+SLB,Schlumberger Limited,Q2,neutral
+SNPS,"Synopsys, Inc.",Q2,neutral
+SPG,"Simon Property Group, Inc.",Q2,neutral
+SRE,Sempra,Q2,neutral
+STZ,"Constellation Brands, Inc.",Q2,neutral
+SYY,Sysco Corporation,Q2,neutral
+TDG,TransDigm Group Incorporated,Q2,neutral
+TEL,TE Connectivity Ltd.,Q2,neutral
+TFC,Truist Financial Corporation,Q2,neutral
+TRV,"The Travelers Companies, Inc.",Q2,neutral
+TT,Trane Technologies plc,Q2,neutral
+WELL,Welltower Inc.,Q2,neutral
+WM,"Waste Management, Inc.",Q2,neutral
+WMB,"The Williams Companies, Inc.",Q2,buy
+XEL,Xcel Energy Inc.,Q2,neutral
+YUM,"Yum! Brands, Inc.",Q2,neutral

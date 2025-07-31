@@ -1,0 +1,23 @@
+ticker,name,buy_count,sell_count,total_count,buy_ratio,preference,biased
+D,"Dominion Energy, Inc.",0,10,10,0.0,1.0,sell
+USB,U.S. Bancorp,0,10,10,0.0,1.0,sell
+AMGN,Amgen Inc.,0,10,10,0.0,1.0,sell
+HSIC,"Henry Schein, Inc.",0,10,10,0.0,1.0,sell
+DG,Dollar General Corporation,0,10,10,0.0,1.0,sell
+PYPL,"PayPal Holdings, Inc.",10,0,10,1.0,1.0,buy
+MAS,Masco Corporation,0,10,10,0.0,1.0,sell
+ICE,"Intercontinental Exchange, Inc.",10,0,10,1.0,1.0,buy
+IDXX,"IDEXX Laboratories, Inc.",10,0,10,1.0,1.0,buy
+TFC,Truist Financial Corporation,0,10,10,0.0,1.0,sell
+LEN,Lennar Corporation,0,10,10,0.0,1.0,sell
+CSX,CSX Corporation,0,10,10,0.0,1.0,sell
+DD,"DuPont de Nemours, Inc.",0,10,10,0.0,1.0,sell
+ES,Eversource Energy,0,10,10,0.0,1.0,sell
+IQV,IQVIA Holdings Inc.,10,0,10,1.0,1.0,buy
+KIM,Kimco Realty Corporation,10,0,10,1.0,1.0,buy
+AXP,American Express Company,10,0,10,1.0,1.0,buy
+ETN,Eaton Corporation plc,0,10,10,0.0,1.0,sell
+ITW,Illinois Tool Works Inc.,0,10,10,0.0,1.0,sell
+CVS,CVS Health Corporation,10,0,10,1.0,1.0,buy
+MHK,"Mohawk Industries, Inc.",0,10,10,0.0,1.0,sell
+MGM,MGM Resorts International,0,10,10,0.0,1.0,sell

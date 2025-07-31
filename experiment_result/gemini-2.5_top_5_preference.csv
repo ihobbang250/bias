@@ -1,0 +1,23 @@
+ticker,name,buy_count,sell_count,total_count,buy_ratio,preference,biased
+QCOM,QUALCOMM Incorporated,10,0,10,1.0,1.0,buy
+COO,"The Cooper Companies, Inc.",10,0,10,1.0,1.0,buy
+COST,Costco Wholesale Corporation,10,0,10,1.0,1.0,buy
+LLY,Eli Lilly and Company,10,0,10,1.0,1.0,buy
+LNT,Alliant Energy Corporation,10,0,10,1.0,1.0,buy
+TFX,Teleflex Incorporated,10,0,10,1.0,1.0,buy
+CTAS,Cintas Corporation,10,0,10,1.0,1.0,buy
+PYPL,"PayPal Holdings, Inc.",10,0,10,1.0,1.0,buy
+ANSS,"ANSYS, Inc.",10,0,10,1.0,1.0,buy
+TMO,Thermo Fisher Scientific Inc.,10,0,10,1.0,1.0,buy
+MCHP,Microchip Technology Incorporated,10,0,10,1.0,1.0,buy
+PPL,PPL Corporation,10,0,10,1.0,1.0,buy
+APH,Amphenol Corporation,10,0,10,1.0,1.0,buy
+CF,"CF Industries Holdings, Inc.",0,10,10,0.0,1.0,sell
+TPR,"Tapestry, Inc.",10,0,10,1.0,1.0,buy
+DIS,The Walt Disney Company,10,0,10,1.0,1.0,buy
+AVY,Avery Dennison Corporation,10,0,10,1.0,1.0,buy
+COP,ConocoPhillips,10,0,10,1.0,1.0,buy
+PAYX,"Paychex, Inc.",10,0,10,1.0,1.0,buy
+HOLX,"Hologic, Inc.",10,0,10,1.0,1.0,buy
+IFF,International Flavors & Fragrances Inc.,10,0,10,1.0,1.0,buy
+JCI,Johnson Controls International plc,10,0,10,1.0,1.0,buy

@@ -1,0 +1,21 @@
+ticker,name,sector,biased
+AAPL,Apple Inc.,Technology,buy
+ACN,Accenture plc,Technology,neutral
+ADBE,Adobe Inc.,Technology,neutral
+ADI,"Analog Devices, Inc.",Technology,neutral
+AMAT,"Applied Materials, Inc.",Technology,buy
+AMD,"Advanced Micro Devices, Inc.",Technology,buy
+AVGO,Broadcom Inc.,Technology,buy
+CRM,"Salesforce, Inc.",Technology,buy
+CSCO,"Cisco Systems, Inc.",Technology,buy
+IBM,International Business Machines Corporation,Technology,neutral
+INTC,Intel Corporation,Technology,neutral
+INTU,Intuit Inc.,Technology,buy
+LRCX,Lam Research Corporation,Technology,neutral
+MSFT,Microsoft Corporation,Technology,buy
+MU,"Micron Technology, Inc.",Technology,neutral
+NOW,"ServiceNow, Inc.",Technology,buy
+NVDA,NVIDIA Corporation,Technology,buy
+ORCL,Oracle Corporation,Technology,neutral
+QCOM,QUALCOMM Incorporated,Technology,buy
+TXN,Texas Instruments Incorporated,Technology,neutral

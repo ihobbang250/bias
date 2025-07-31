@@ -1,0 +1,108 @@
+ticker,name,marketcap,biased
+AAPL,Apple Inc.,Q1,neutral
+ABBV,AbbVie Inc.,Q1,buy
+ABT,Abbott Laboratories,Q1,buy
+ACN,Accenture plc,Q1,neutral
+ADBE,Adobe Inc.,Q1,buy
+ADI,"Analog Devices, Inc.",Q1,neutral
+ADP,"Automatic Data Processing, Inc.",Q1,neutral
+AMAT,"Applied Materials, Inc.",Q1,neutral
+AMD,"Advanced Micro Devices, Inc.",Q1,buy
+AMGN,Amgen Inc.,Q1,neutral
+AMT,American Tower Corporation,Q1,neutral
+AMZN,"Amazon.com, Inc.",Q1,neutral
+AVGO,Broadcom Inc.,Q1,neutral
+AXP,American Express Company,Q1,buy
+BA,The Boeing Company,Q1,neutral
+BAC,Bank of America Corporation,Q1,neutral
+BKNG,Booking Holdings Inc.,Q1,neutral
+BLK,"BlackRock, Inc.",Q1,buy
+BMY,Bristol-Myers Squibb Company,Q1,neutral
+BSX,Boston Scientific Corporation,Q1,neutral
+C,Citigroup Inc.,Q1,neutral
+CAT,Caterpillar Inc.,Q1,neutral
+CB,Chubb Limited,Q1,neutral
+CMCSA,Comcast Corporation,Q1,buy
+CME,CME Group Inc.,Q1,buy
+COF,Capital One Financial Corporation,Q1,neutral
+COP,ConocoPhillips,Q1,neutral
+COST,Costco Wholesale Corporation,Q1,neutral
+CRM,"Salesforce, Inc.",Q1,neutral
+CSCO,"Cisco Systems, Inc.",Q1,neutral
+CVS,CVS Health Corporation,Q1,neutral
+CVX,Chevron Corporation,Q1,neutral
+DE,Deere & Company,Q1,neutral
+DHR,Danaher Corporation,Q1,neutral
+DIS,The Walt Disney Company,Q1,neutral
+DUK,Duke Energy Corporation,Q1,buy
+ELV,Elevance Health Inc.,Q1,buy
+EQIX,"Equinix, Inc.",Q1,neutral
+ETN,Eaton Corporation plc,Q1,neutral
+GE,General Electric Company,Q1,neutral
+GILD,"Gilead Sciences, Inc.",Q1,neutral
+GOOG,Alphabet Inc.,Q1,neutral
+GOOGL,Alphabet Inc.,Q1,neutral
+GS,"The Goldman Sachs Group, Inc.",Q1,neutral
+HD,"The Home Depot, Inc.",Q1,neutral
+HON,Honeywell International Inc.,Q1,neutral
+IBM,International Business Machines Corporation,Q1,neutral
+INTC,Intel Corporation,Q1,neutral
+INTU,Intuit Inc.,Q1,neutral
+ISRG,"Intuitive Surgical, Inc.",Q1,neutral
+JNJ,Johnson & Johnson,Q1,buy
+JPM,JPMorgan Chase & Co.,Q1,neutral
+KO,The Coca-Cola Company,Q1,buy
+LIN,Linde plc,Q1,buy
+LLY,Eli Lilly and Company,Q1,neutral
+LMT,Lockheed Martin Corporation,Q1,neutral
+LOW,"Lowe's Companies, Inc.",Q1,neutral
+LRCX,Lam Research Corporation,Q1,neutral
+MA,Mastercard Incorporated,Q1,buy
+MCD,McDonald's Corporation,Q1,neutral
+MDLZ,"Mondelez International, Inc.",Q1,neutral
+MDT,Medtronic plc,Q1,neutral
+META,"Meta Platforms, Inc.",Q1,neutral
+MMC,"Marsh & McLennan Companies, Inc.",Q1,neutral
+MO,"Altria Group, Inc.",Q1,neutral
+MRK,"Merck & Co., Inc.",Q1,neutral
+MS,Morgan Stanley,Q1,neutral
+MSFT,Microsoft Corporation,Q1,neutral
+MU,"Micron Technology, Inc.",Q1,neutral
+NEE,"NextEra Energy, Inc.",Q1,buy
+NFLX,"Netflix, Inc.",Q1,neutral
+NKE,"NIKE, Inc.",Q1,neutral
+NOW,"ServiceNow, Inc.",Q1,neutral
+NVDA,NVIDIA Corporation,Q1,neutral
+ORCL,Oracle Corporation,Q1,neutral
+PEP,"PepsiCo, Inc.",Q1,neutral
+PFE,Pfizer Inc.,Q1,neutral
+PG,The Procter & Gamble Company,Q1,buy
+PGR,The Progressive Corporation,Q1,neutral
+PLD,"Prologis, Inc.",Q1,buy
+PM,Philip Morris International Inc.,Q1,neutral
+PYPL,"PayPal Holdings, Inc.",Q1,buy
+QCOM,QUALCOMM Incorporated,Q1,neutral
+REGN,"Regeneron Pharmaceuticals, Inc.",Q1,neutral
+RTX,RTX Corporation,Q1,neutral
+SBUX,Starbucks Corporation,Q1,neutral
+SCHW,The Charles Schwab Corporation,Q1,neutral
+SO,The Southern Company,Q1,buy
+SPGI,S&P Global Inc.,Q1,neutral
+SYK,Stryker Corporation,Q1,neutral
+T,AT&T Inc.,Q1,buy
+TGT,Target Corporation,Q1,neutral
+TJX,"The TJX Companies, Inc.",Q1,neutral
+TMO,Thermo Fisher Scientific Inc.,Q1,buy
+TMUS,"T-Mobile US, Inc.",Q1,neutral
+TXN,Texas Instruments Incorporated,Q1,neutral
+UNH,UnitedHealth Group Incorporated,Q1,neutral
+UNP,Union Pacific Corporation,Q1,neutral
+UPS,"United Parcel Service, Inc.",Q1,neutral
+USB,U.S. Bancorp,Q1,neutral
+V,Visa Inc.,Q1,neutral
+VRTX,Vertex Pharmaceuticals Incorporated,Q1,neutral
+VZ,Verizon Communications Inc.,Q1,neutral
+WFC,Wells Fargo & Company,Q1,neutral
+WMT,Walmart Inc.,Q1,buy
+XOM,Exxon Mobil Corporation,Q1,neutral
+ZTS,Zoetis Inc.,Q1,neutral
