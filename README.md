@@ -84,7 +84,3 @@ If you use this code in your research, please cite:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For questions or issues, please open an issue on GitHub or contact [hoyounglee@unist.ac.kr].
