@@ -9,18 +9,21 @@ import time
 import math
 import openai
 # ──────────────────────
-# 환경 및 데이터 로드
+# Environment and Data Loading
 # ──────────────────────
-client = openai.OpenAI(api_key="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")
-MODEL_ID = "gpt-4.1-mini"
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    raise ValueError("OPENAI_API_KEY environment variable not set")
+client = openai.OpenAI(api_key=api_key)
+MODEL_ID = "gpt-4.1"
 MAX_RETRIES = 3
 RETRY_DELAY = 1
 MAX_WORKERS = 30
 CLASS = "top"
-# (지지 근거, 반대 근거) 페어 설정 - 지정된 (2,2)와 (2,3)만
+# Evidence pairs setup - only specified (2,2) and (2,3)
 evidence_pairs = [
-    (2, 2),  # 지지 2개, 반대 2개
-    (2, 3),  # 지지 2개, 반대 3개
+    (2, 2),  # 2 supporting, 2 opposing
+    (2, 3),  # 2 supporting, 3 opposing
 ]
 num_trials = 1
 
@@ -41,7 +44,7 @@ evidence_df = pd.merge(
 )
 
 # ──────────────────────
-# 헬퍼 함수들
+# Helper Functions
 # ──────────────────────
 def get_evidence_list_v3(row):
     qual_evidence = [str(row.get(f"evidence{i}_qual", '')).strip() for i in range(1, 3) if pd.notna(row.get(f"evidence{i}_qual"))]
@@ -65,14 +68,14 @@ def build_prompt(ticker, name, evidence_str):
     return base_prompt
 
 # ──────────────────────
-# 프롬프트 생성 (batch)
+# Prompt Generation (Batch)
 # ──────────────────────
 tasks_metadata = []
 prompts_to_run = []
 
 for _, row in tqdm(biased_ticker_df.iterrows(), total=len(biased_ticker_df), desc="Preparing Tasks"):
     ticker = row['ticker']
-    bias = row['biased'].strip().lower()  # 이것이 LLM의 기존 답변 (buy 또는 sell)
+    bias = row['biased'].strip().lower()  # This is the LLM's previous answer (buy or sell)
     name = row['name']
 
     if bias not in ('buy', 'sell'):
@@ -88,15 +91,15 @@ for _, row in tqdm(biased_ticker_df.iterrows(), total=len(biased_ticker_df), des
     # Specified evidence pairs only
     for n_support, n_counter in evidence_pairs:
         for trial in range(num_trials):
-            # --- 근거 샘플링 ---
+            # --- Evidence Sampling ---
             buy_qual_evidence, buy_quat_evidence = buy_evidence_tuple
             sell_qual_evidence, sell_quat_evidence = sell_evidence_tuple
             buy_evidences = buy_qual_evidence + buy_quat_evidence
             sell_evidences = sell_qual_evidence + sell_quat_evidence
         
-            # bias가 LLM의 기존 답변이므로:
-            # - bias 방향의 근거 = n_support개 (지지 근거)
-            # - 반대 방향의 근거 = n_counter개 (반대 근거)
+            # Since bias is the LLM's previous answer:
+            # - Evidence in bias direction = n_support (supporting evidence)
+            # - Evidence in opposite direction = n_counter (opposing evidence)
             if bias == 'buy':
                 n_buy = min(n_support, len(buy_evidences))
                 n_sell = min(n_counter, len(sell_evidences))
@@ -132,7 +135,7 @@ for _, row in tqdm(biased_ticker_df.iterrows(), total=len(biased_ticker_df), des
 print(f"Total prompts to run: {len(prompts_to_run)}")
 
 # ──────────────────────
-# OpenAI API 배치 추론 with logprobs
+# OpenAI API Batch Inference with Logprobs
 # ──────────────────────
 def get_openai_response(prompt):
     last_error = None
@@ -171,7 +174,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
 print("Batch inference completed.")
 
 # ──────────────────────
-# 결과 취합 및 저장
+# Result Aggregation and Saving
 # ──────────────────────
 all_results = []
 for i, response in tqdm(enumerate(results_responses), total=len(results_responses), desc="Processing Results"):
