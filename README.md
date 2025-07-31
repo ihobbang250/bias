@@ -68,19 +68,6 @@ export TOGETHER_API_KEY="your-together-api-key"
 
 ```
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```
-@software{llm_bias_analysis,
-  title = {LLM Investment Decision Bias Analysis},
-  year = {2024},
-  url = {<https://github.com/yourusername/llm-bias-analysis>}
-}
-
-```
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
